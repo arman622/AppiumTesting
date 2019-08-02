@@ -1,0 +1,1336 @@
+2019-07-24 23:19:44:608 [Appium] Welcome to Appium v1.13.0
+2019-07-24 23:19:44:612 [Appium] Non-default server args:
+2019-07-24 23:19:44:615 [Appium]   logFile: C:\Users\arman\IdeaProjects\AppiumTesting\src\test\log.txt
+2019-07-24 23:19:44:615 [Appium]   localTimezone: true
+2019-07-24 23:19:44:765 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2019-07-24 23:19:45:016 [HTTP] --> GET /wd/hub/status
+2019-07-24 23:19:45:017 [HTTP] {}
+2019-07-24 23:19:45:026 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-07-24 23:19:45:029 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.13.0"}}
+2019-07-24 23:19:45:040 [HTTP] <-- GET /wd/hub/status 200 20 ms - 68
+2019-07-24 23:19:45:040 [HTTP] 
+2019-07-24 23:19:46:625 [HTTP] --> POST /wd/hub/session
+2019-07-24 23:19:46:625 [HTTP] {"desiredCapabilities":{"appActivity":"com.google.android.maps.MapsActivity","appPackage":"com.google.android.apps.maps","automationName":"UiAutomator2","platformName":"Android","deviceName":"emulator-5554"},"capabilities":{"firstMatch":[{"appium:appActivity":"com.google.android.maps.MapsActivity","appium:appPackage":"com.google.android.apps.maps","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","platformName":"android"}]}}
+2019-07-24 23:19:46:626 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":"com.google.android.maps.MapsActivity","appPackage":"com.google.android.apps.maps","automationName":"UiAutomator2","platformName":"Android","deviceName":"emulator-5554"},null,{"firstMatch":[{"appium:appActivity":"com.google.android.maps.MapsActivity","appium:appPackage":"com.google.android.apps.maps","appium:automationName":"UiAutomator2","appium:deviceName":"emulator-5554","platformName":"android"}]}]
+2019-07-24 23:19:46:627 [BaseDriver] Event 'newSessionRequested' logged at 1564024786627 (23:19:46 GMT-0400 (Eastern Daylight Time))
+2019-07-24 23:19:46:905 [Appium] Appium v1.13.0 creating new AndroidUiautomator2Driver (v1.33.1) session
+2019-07-24 23:19:46:905 [Appium] Capabilities:
+2019-07-24 23:19:46:906 [Appium]   platformName: android
+2019-07-24 23:19:46:906 [Appium]   appActivity: com.google.android.maps.MapsActivity
+2019-07-24 23:19:46:906 [Appium]   appPackage: com.google.android.apps.maps
+2019-07-24 23:19:46:906 [Appium]   automationName: UiAutomator2
+2019-07-24 23:19:46:907 [Appium]   deviceName: emulator-5554
+2019-07-24 23:19:46:916 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"appActivity":"com.google.... were provided
+2019-07-24 23:19:46:916 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-07-24 23:19:46:925 [BaseDriver] Session created with session id: 7f8f7cca-250d-4d78-8921-e886a93277cb
+2019-07-24 23:19:47:336 [ADB] Found 1 'build-tools' folders under 'C:\Users\arman\AppData\Local\Android\Sdk' (newest first):
+2019-07-24 23:19:47:336 [ADB]     C:/Users/arman/AppData/Local/Android/Sdk/build-tools/29.0.0
+2019-07-24 23:19:47:337 [ADB] Using 'adb.exe' from 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2019-07-24 23:19:47:337 [AndroidDriver] Retrieving device list
+2019-07-24 23:19:47:337 [ADB] Trying to find a connected android device
+2019-07-24 23:19:47:338 [ADB] Getting connected devices...
+2019-07-24 23:19:47:370 [ADB] 1 device(s) connected
+2019-07-24 23:19:47:370 [AndroidDriver] Using device: emulator-5554
+2019-07-24 23:19:47:371 [ADB] Using 'adb.exe' from 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2019-07-24 23:19:47:372 [ADB] Setting device id to emulator-5554
+2019-07-24 23:19:47:373 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2019-07-24 23:19:47:447 [ADB] Current device property 'ro.build.version.sdk': 27
+2019-07-24 23:19:47:447 [ADB] Device API level: 27
+2019-07-24 23:19:47:448 [AndroidDriver] No app sent in, not parsing package/activity
+2019-07-24 23:19:47:449 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+2019-07-24 23:19:47:475 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+2019-07-24 23:19:47:515 [AndroidDriver] Pushing settings apk to device...
+2019-07-24 23:19:47:516 [ADB] Getting install status for io.appium.settings
+2019-07-24 23:19:47:517 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2019-07-24 23:19:47:602 [ADB] 'io.appium.settings' is installed
+2019-07-24 23:19:47:603 [ADB] Getting package info for 'io.appium.settings'
+2019-07-24 23:19:47:603 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2019-07-24 23:19:47:680 [ADB] Using 'aapt.exe' from 'C:\Users\arman\AppData\Local\Android\Sdk\build-tools\29.0.0\aapt.exe'
+2019-07-24 23:19:47:698 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.0' >= '2.14.0')
+2019-07-24 23:19:47:698 [ADB] There is no need to install/upgrade 'C:\Users\arman\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2019-07-24 23:19:47:699 [ADB] Getting IDs of all 'io.appium.settings' processes
+2019-07-24 23:19:47:699 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2019-07-24 23:19:47:766 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f io\\.appium\\.settings'
+2019-07-24 23:19:47:848 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2019-07-24 23:19:47:849 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell appops set io.appium.settings android\:mock_location allow'
+2019-07-24 23:19:47:943 [Logcat] Starting logcat capture
+2019-07-24 23:19:47:991 [ADB] Getting install status for io.appium.uiautomator2.server
+2019-07-24 23:19:47:992 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2019-07-24 23:19:48:117 [ADB] 'io.appium.uiautomator2.server' is installed
+2019-07-24 23:19:48:118 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2019-07-24 23:19:48:118 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2019-07-24 23:19:48:242 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('3.5.1' >= '3.5.1')
+2019-07-24 23:19:48:243 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2019-07-24 23:19:48:243 [ADB] Checking app cert for C:\Users\arman\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.5.1.apk
+2019-07-24 23:19:48:245 [ADB] Using 'apksigner.bat' from 'C:\Users\arman\AppData\Local\Android\Sdk\build-tools\29.0.0\apksigner.bat'
+2019-07-24 23:19:48:246 [ADB] Starting 'C:\Users\arman\AppData\Local\Android\Sdk\build-tools\29.0.0\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\arman\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v3.5.1.apk"]'
+2019-07-24 23:19:50:237 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-07-24 23:19:50:237 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-07-24 23:19:50:238 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-07-24 23:19:50:238 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-07-24 23:19:50:238 [ADB] 
+2019-07-24 23:19:50:238 [ADB] 'C:\Users\arman\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.5.1.apk' is already signed.
+2019-07-24 23:19:50:239 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2019-07-24 23:19:50:239 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+2019-07-24 23:19:50:329 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2019-07-24 23:19:50:329 [ADB] Checking app cert for C:\Users\arman\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2019-07-24 23:19:50:330 [ADB] Starting 'C:\Users\arman\AppData\Local\Android\Sdk\build-tools\29.0.0\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\arman\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk"]'
+2019-07-24 23:19:51:149 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2019-07-24 23:19:51:149 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2019-07-24 23:19:51:150 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2019-07-24 23:19:51:150 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2019-07-24 23:19:51:150 [ADB] 
+2019-07-24 23:19:51:150 [ADB] 'C:\Users\arman\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2019-07-24 23:19:51:150 [UiAutomator2] Server packages are not going to be (re)installed
+2019-07-24 23:19:51:151 [UiAutomator2] Waiting up to 30000ms for services to be available
+2019-07-24 23:19:51:152 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+2019-07-24 23:19:52:178 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2019-07-24 23:19:52:178 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2019-07-24 23:19:52:179 [ADB] Forwarding system: 8200 to device: 6790
+2019-07-24 23:19:52:179 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp\:8200 tcp\:6790'
+2019-07-24 23:19:52:204 [UiAutomator2] No app capability. Assuming it is already on the device
+2019-07-24 23:19:52:205 [ADB] Getting install status for com.google.android.apps.maps
+2019-07-24 23:19:52:205 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.google.android.apps.maps'
+2019-07-24 23:19:52:313 [ADB] 'com.google.android.apps.maps' is installed
+2019-07-24 23:19:52:315 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.google.android.apps.maps'
+2019-07-24 23:19:52:414 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear com.google.android.apps.maps'
+2019-07-24 23:19:53:485 [AndroidDriver] Performed fast reset on the installed 'com.google.android.apps.maps' application (stop and clear)
+2019-07-24 23:19:53:486 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2019-07-24 23:19:53:517 [UiAutomator2] No obsolete sessions have been detected (Error: socket hang up)
+2019-07-24 23:19:53:517 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2019-07-24 23:19:53:618 [UiAutomator2] Starting UIAutomator2 server 3.5.1
+2019-07-24 23:19:53:619 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\arman\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.5.1.apk' and test from 'C:\Users\arman\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2019-07-24 23:19:53:619 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2019-07-24 23:19:53:619 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2019-07-24 23:19:54:626 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-24 23:19:54:628 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-07-24 23:19:54:634 [WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+2019-07-24 23:19:55:638 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-24 23:19:55:638 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-07-24 23:19:55:645 [WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+2019-07-24 23:19:55:853 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2019-07-24 23:19:56:645 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-24 23:19:56:646 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-07-24 23:19:56:651 [WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+2019-07-24 23:19:57:652 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-24 23:19:57:652 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2019-07-24 23:19:57:819 [WD Proxy] Got response with status 200: "{\"sessionId\":\"None\",\"status\":0,\"value\":\"Status Invoked\"}"
+2019-07-24 23:19:57:819 [WD Proxy] Determined that the downstream protocol for proxy is MJSONWP
+2019-07-24 23:19:57:820 [UiAutomator2] The initialization of the instrumentation process took 4201ms
+2019-07-24 23:19:57:820 [WD Proxy] Matched '/session' to command name 'createSession'
+2019-07-24 23:19:57:821 [WD Proxy] Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.google.android.maps.MapsActivity","appPackage":"com.google.android.apps.maps","automationName":"UiAutomator2","deviceName":"emulator-5554"},"platformName":"android","appActivity":"com.google.android.maps.MapsActivity","appPackage":"com.google.android.apps.maps","automationName":"UiAutomator2","deviceName":"emulator-5554","deviceUDID":"emulator-5554"}}
+2019-07-24 23:19:57:864 [WD Proxy] Got response with status 200: {"sessionId":"4cf87f2d-88da-4265-ba43-de9d63b105c5","status":0,"value":"Created Session"}
+2019-07-24 23:19:57:876 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/appium/device/info] with no body
+2019-07-24 23:19:57:935 [WD Proxy] Got response with status 200: "{\"sessionId\":\"4cf87f2d-88da-4265-ba43-de9d63b105c5\",\"status\":0,\"value\":{\"androidId\":\"4a890e4a64023631\",\"manufacturer\":\"Google\",\"model\":\"Android SDK built for x86\",\"brand\":\"google\",\"apiVersion\":\"27\",\"platformVersion\":\"8.1.0\",\"carrierName\":\"Android\",\"realDisplaySize\":\"1080x1920\",\"displayDensity\":420,\"networks\":[{\"type\":0,\"typeName\":\"MOBILE\",\"subtype\":13,\"subtypeName\":\"LTE\",\"isConnected\":true,\"detailedState\":\"CONNECTED\",\"state\":\"CONNECTED\",\"extraInfo\":\"epc.tmobile.com\",\"isAvailable\":true,\"isFailover\":false,\"isRoaming\":false,\"capabilities\":{\"transportTypes\":\"NET_CAPABILITY_MMS\",\"networkCapabilities\":\"\",\"linkUpstreamBandwidthKbps\":51200,\"linkDownBandwidthKbps\":102400,\"signalStrength\":-2147483648,\"networkSpecifier\":\"1\",\"SSID\":null}},{\"type\":1,\"typeName\":\"WIFI\",\"subtype\":0,\"subtypeName\":\"\",\"isConnected\":true,\"detailedState\":\"CONNECTED\",\"state\":\"CONNECTED\",\"extraInfo\":\"\\\"AndroidWifi\\\"\",\...
+2019-07-24 23:19:57:936 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+2019-07-24 23:19:58:012 [AndroidDriver] Screen already unlocked, doing nothing
+2019-07-24 23:19:58:012 [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.google.android.apps.maps/com.google.android.maps.MapsActivity'. Starting it ourselves
+2019-07-24 23:19:58:013 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.google.android.apps.maps/com.google.android.maps.MapsActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2019-07-24 23:20:02:401 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/appium/device/pixel_ratio] with body: {}
+2019-07-24 23:20:02:454 [WD Proxy] Got response with status 200: "{\"sessionId\":\"4cf87f2d-88da-4265-ba43-de9d63b105c5\",\"status\":0,\"value\":2.625}"
+2019-07-24 23:20:02:458 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2019-07-24 23:20:02:459 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/appium/device/system_bars] with body: {}
+2019-07-24 23:20:02:523 [WD Proxy] Got response with status 200: "{\"sessionId\":\"4cf87f2d-88da-4265-ba43-de9d63b105c5\",\"status\":0,\"value\":{\"statusBar\":63}}"
+2019-07-24 23:20:02:525 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2019-07-24 23:20:02:525 [WD Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/window/current/size] with body: {}
+2019-07-24 23:20:02:584 [WD Proxy] Got response with status 200: "{\"sessionId\":\"4cf87f2d-88da-4265-ba43-de9d63b105c5\",\"status\":0,\"value\":{\"height\":1794,\"width\":1080}}"
+2019-07-24 23:20:02:585 [Appium] New AndroidUiautomator2Driver session created successfully, session 7f8f7cca-250d-4d78-8921-e886a93277cb added to master session list
+2019-07-24 23:20:02:587 [BaseDriver] Event 'newSessionStarted' logged at 1564024802586 (23:20:02 GMT-0400 (Eastern Daylight Time))
+2019-07-24 23:20:02:589 [W3C (7f8f7cca)] Cached the protocol value 'W3C' for the new session 7f8f7cca-250d-4d78-8921-e886a93277cb
+2019-07-24 23:20:02:589 [W3C (7f8f7cca)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.google.android.maps.MapsActivity","appPackage":"com.google.android.apps.maps","automationName":"UiAutomator2","deviceName":"emulator-5554"},"platformName":"android","appActivity":"com.google.android.maps.MapsActivity","appPackage":"com.google.android.apps.maps","automationName":"UiAutomator2","deviceName":"emulator-5554","deviceUDID":"emulator-5554","deviceApiLevel":27,"platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1731}}}
+2019-07-24 23:20:02:592 [HTTP] <-- POST /wd/hub/session 200 15965 ms - 955
+2019-07-24 23:20:02:592 [HTTP] 
+2019-07-24 23:20:02:778 [HTTP] --> GET /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb
+2019-07-24 23:20:02:779 [HTTP] {}
+2019-07-24 23:20:02:782 [W3C (7f8f7cca)] Calling AppiumDriver.getSession() with args: ["7f8f7cca-250d-4d78-8921-e886a93277cb"]
+2019-07-24 23:20:02:837 [UiAutomator2] Getting session details from server to mix in
+2019-07-24 23:20:02:838 [WD Proxy] Matched '/' to command name 'getSession'
+2019-07-24 23:20:02:838 [WD Proxy] Proxying [GET /] to [GET http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5] with body: {}
+2019-07-24 23:20:02:885 [WD Proxy] Got response with status 200: "{\"sessionId\":\"4cf87f2d-88da-4265-ba43-de9d63b105c5\",\"status\":0,\"value\":{}}"
+2019-07-24 23:20:02:888 [W3C (7f8f7cca)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.google.android.maps.MapsActivity","appPackage":"com.google.android.apps.maps","automationName":"UiAutomator2","deviceName":"emulator-5554"},"platformName":"android","appActivity":"com.google.android.maps.MapsActivity","appPackage":"com.google.android.apps.maps","automationName":"UiAutomator2","deviceName":"emulator-5554","deviceUDID":"emulator-5554","deviceApiLevel":27,"platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1731}}
+2019-07-24 23:20:02:889 [HTTP] <-- GET /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb 200 111 ms - 887
+2019-07-24 23:20:02:890 [HTTP] 
+2019-07-24 23:20:02:904 [HTTP] --> GET /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb
+2019-07-24 23:20:02:904 [HTTP] {}
+2019-07-24 23:20:02:905 [W3C (7f8f7cca)] Calling AppiumDriver.getSession() with args: ["7f8f7cca-250d-4d78-8921-e886a93277cb"]
+2019-07-24 23:20:02:907 [UiAutomator2] Getting session details from server to mix in
+2019-07-24 23:20:02:907 [WD Proxy] Matched '/' to command name 'getSession'
+2019-07-24 23:20:02:908 [WD Proxy] Proxying [GET /] to [GET http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5] with body: {}
+2019-07-24 23:20:03:047 [WD Proxy] Got response with status 200: "{\"sessionId\":\"4cf87f2d-88da-4265-ba43-de9d63b105c5\",\"status\":0,\"value\":{}}"
+2019-07-24 23:20:03:048 [W3C (7f8f7cca)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.google.android.maps.MapsActivity","appPackage":"com.google.android.apps.maps","automationName":"UiAutomator2","deviceName":"emulator-5554"},"platformName":"android","appActivity":"com.google.android.maps.MapsActivity","appPackage":"com.google.android.apps.maps","automationName":"UiAutomator2","deviceName":"emulator-5554","deviceUDID":"emulator-5554","deviceApiLevel":27,"platformVersion":"8.1.0","deviceScreenSize":"1080x1920","deviceScreenDensity":420,"deviceModel":"Android SDK built for x86","deviceManufacturer":"Google","pixelRatio":2.625,"statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":1731}}
+2019-07-24 23:20:03:050 [HTTP] <-- GET /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb 200 146 ms - 887
+2019-07-24 23:20:03:050 [HTTP] 
+2019-07-24 23:20:03:065 [HTTP] --> POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/timeouts
+2019-07-24 23:20:03:065 [HTTP] {"implicit":10000}
+2019-07-24 23:20:03:069 [W3C (7f8f7cca)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"7f8f7cca-250d-4d78-8921-e886a93277cb"]
+2019-07-24 23:20:03:071 [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2019-07-24 23:20:03:073 [BaseDriver] Set implicit wait to 10000ms
+2019-07-24 23:20:03:074 [W3C (7f8f7cca)] Responding to client with driver.timeouts() result: null
+2019-07-24 23:20:03:077 [HTTP] <-- POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/timeouts 200 10 ms - 14
+2019-07-24 23:20:03:077 [HTTP] 
+2019-07-24 23:20:08:086 [HTTP] --> POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element
+2019-07-24 23:20:08:087 [HTTP] {"using":"id","value":"com.google.android.apps.maps:id/search_omnibox_text_box"}
+2019-07-24 23:20:08:091 [W3C (7f8f7cca)] Calling AppiumDriver.findElement() with args: ["id","com.google.android.apps.maps:id/search_omnibox_text_box","7f8f7cca-250d-4d78-8921-e886a93277cb"]
+2019-07-24 23:20:08:093 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-07-24 23:20:08:094 [BaseDriver] Waiting up to 10000 ms for condition
+2019-07-24 23:20:08:095 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-07-24 23:20:08:095 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/element] with body: {"strategy":"id","selector":"com.google.android.apps.maps:id/search_omnibox_text_box","context":"","multiple":false}
+2019-07-24 23:20:08:728 [WD Proxy] Got response with status 200: {"sessionId":"4cf87f2d-88da-4265-ba43-de9d63b105c5","status":0,"value":{"ELEMENT":"4fb5b2e3-cbaa-47a4-9085-0cbbf1ab8608"}}
+2019-07-24 23:20:08:729 [W3C (7f8f7cca)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4fb5b2e3-cbaa-47a4-9085-0cbbf1ab8608","ELEMENT":"4fb5b2e3-cbaa-47a4-9085-0cbbf1ab8608"}
+2019-07-24 23:20:08:730 [HTTP] <-- POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element 200 643 ms - 137
+2019-07-24 23:20:08:730 [HTTP] 
+2019-07-24 23:20:08:749 [HTTP] --> POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element/4fb5b2e3-cbaa-47a4-9085-0cbbf1ab8608/click
+2019-07-24 23:20:08:750 [HTTP] {"id":"4fb5b2e3-cbaa-47a4-9085-0cbbf1ab8608"}
+2019-07-24 23:20:08:751 [W3C (7f8f7cca)] Calling AppiumDriver.click() with args: ["4fb5b2e3-cbaa-47a4-9085-0cbbf1ab8608","7f8f7cca-250d-4d78-8921-e886a93277cb"]
+2019-07-24 23:20:08:756 [WD Proxy] Matched '/element/4fb5b2e3-cbaa-47a4-9085-0cbbf1ab8608/click' to command name 'click'
+2019-07-24 23:20:08:757 [WD Proxy] Proxying [POST /element/4fb5b2e3-cbaa-47a4-9085-0cbbf1ab8608/click] to [POST http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/element/4fb5b2e3-cbaa-47a4-9085-0cbbf1ab8608/click] with body: {"element":"4fb5b2e3-cbaa-47a4-9085-0cbbf1ab8608"}
+2019-07-24 23:20:08:907 [WD Proxy] Got response with status 200: {"sessionId":"4cf87f2d-88da-4265-ba43-de9d63b105c5","status":0,"value":true}
+2019-07-24 23:20:08:908 [W3C (7f8f7cca)] Responding to client with driver.click() result: true
+2019-07-24 23:20:08:911 [HTTP] <-- POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element/4fb5b2e3-cbaa-47a4-9085-0cbbf1ab8608/click 200 160 ms - 14
+2019-07-24 23:20:08:911 [HTTP] 
+2019-07-24 23:20:09:966 [HTTP] --> POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/actions
+2019-07-24 23:20:09:967 [HTTP] {"actions":[{"type":"key","actions":[{"type":"keyDown","value":"4"},{"type":"keyUp","value":"4"},{"type":"keyDown","value":"5"},{"type":"keyUp","value":"5"},{"type":"keyDown","value":"8"},{"type":"keyUp","value":"8"},{"type":"keyDown","value":" "},{"type":"keyUp","value":" "},{"type":"keyDown","value":"H"},{"type":"keyUp","value":"H"},{"type":"keyDown","value":"i"},{"type":"keyUp","value":"i"},{"type":"keyDown","value":"l"},{"type":"keyUp","value":"l"},{"type":"keyDown","value":"l"},{"type":"keyUp","value":"l"},{"type":"keyDown","value":"s"},{"type":"keyUp","value":"s"},{"type":"keyDown","value":"i"},{"type":"keyUp","value":"i"},{"type":"keyDown","value":"d"},{"type":"keyUp","value":"d"},{"type":"keyDown","value":"e"},{"type":"keyUp","value":"e"},{"type":"keyDown","value":" "},{"type":"keyUp","value":" "},{"type":"keyDown","value":"D"},{"type":"keyUp","value":"D"},{"type":"keyDown","value":"r"},{"type":"keyUp","value":"r"},{"type":"keyDown","value":" "},{"type":"keyUp","value":" "},{"t
+2019-07-24 23:20:09:973 [W3C (7f8f7cca)] Calling AppiumDriver.performActions() with args: [[{"type":"key","actions":[{"type":"keyDown","value":"4"},{"type":"keyUp","value":"4"},{"type":"keyDown","value":"5"},{"type":"keyUp","value":"5"},{"type":"keyDown","value":"8"},{"type":"keyUp","value":"8"},{"type":"keyDown","value":" "},{"type":"keyUp","value":" "},{"type":"keyDown","value":"H"},{"type":"keyUp","value":"H"},{"type":"keyDown","value":"i"},{"type":"keyUp","value":"i"},{"type":"keyDown","value":"l"},{"type":"keyUp","value":"l"},{"type":"keyDown","value":"l"},{"type":"keyUp","value":"l"},{"type":"keyDown","value":"s"},{"type":"keyUp","value":"s"},{"type":"keyDown","value":"i"},{"type":"keyUp","value":"i"},{"type":"keyDown","value":"d"},{"type":"keyUp","value":"d"},{"type":"keyDown","value":"e"},{"type":"keyUp","value":"e"},{"type":"keyDown","value":" "},{"type":"keyUp","value":" "},{"type":"keyDown","value":"D"},{"type":"keyUp","value":"D"},{"type":"keyDown","value":"r"},{"type":"keyUp","value":"r"},{"type":"keyDown","value":" "},{"type":"keyUp","value":" "},{"type":"keyDown","value":"S"},{"t...
+2019-07-24 23:20:09:977 [UiAutomator2] Received the following W3C actions: [
+2019-07-24 23:20:09:977 [UiAutomator2]   {
+2019-07-24 23:20:09:978 [UiAutomator2]     "type": "key",
+2019-07-24 23:20:09:978 [UiAutomator2]     "actions": [
+2019-07-24 23:20:09:979 [UiAutomator2]       {
+2019-07-24 23:20:09:979 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:09:979 [UiAutomator2]         "value": "4"
+2019-07-24 23:20:09:980 [UiAutomator2]       },
+2019-07-24 23:20:09:980 [UiAutomator2]       {
+2019-07-24 23:20:09:981 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:09:981 [UiAutomator2]         "value": "4"
+2019-07-24 23:20:09:982 [UiAutomator2]       },
+2019-07-24 23:20:09:982 [UiAutomator2]       {
+2019-07-24 23:20:09:983 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:09:983 [UiAutomator2]         "value": "5"
+2019-07-24 23:20:09:984 [UiAutomator2]       },
+2019-07-24 23:20:09:984 [UiAutomator2]       {
+2019-07-24 23:20:09:984 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:09:984 [UiAutomator2]         "value": "5"
+2019-07-24 23:20:09:985 [UiAutomator2]       },
+2019-07-24 23:20:09:985 [UiAutomator2]       {
+2019-07-24 23:20:09:985 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:09:985 [UiAutomator2]         "value": "8"
+2019-07-24 23:20:09:986 [UiAutomator2]       },
+2019-07-24 23:20:09:986 [UiAutomator2]       {
+2019-07-24 23:20:09:987 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:09:987 [UiAutomator2]         "value": "8"
+2019-07-24 23:20:09:988 [UiAutomator2]       },
+2019-07-24 23:20:09:989 [UiAutomator2]       {
+2019-07-24 23:20:09:989 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:09:990 [UiAutomator2]         "value": " "
+2019-07-24 23:20:09:990 [UiAutomator2]       },
+2019-07-24 23:20:09:991 [UiAutomator2]       {
+2019-07-24 23:20:09:991 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:09:992 [UiAutomator2]         "value": " "
+2019-07-24 23:20:09:992 [UiAutomator2]       },
+2019-07-24 23:20:09:993 [UiAutomator2]       {
+2019-07-24 23:20:09:993 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:09:994 [UiAutomator2]         "value": "H"
+2019-07-24 23:20:09:994 [UiAutomator2]       },
+2019-07-24 23:20:09:995 [UiAutomator2]       {
+2019-07-24 23:20:09:995 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:09:995 [UiAutomator2]         "value": "H"
+2019-07-24 23:20:09:995 [UiAutomator2]       },
+2019-07-24 23:20:09:996 [UiAutomator2]       {
+2019-07-24 23:20:09:996 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:09:997 [UiAutomator2]         "value": "i"
+2019-07-24 23:20:09:997 [UiAutomator2]       },
+2019-07-24 23:20:09:998 [UiAutomator2]       {
+2019-07-24 23:20:09:998 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:09:998 [UiAutomator2]         "value": "i"
+2019-07-24 23:20:09:999 [UiAutomator2]       },
+2019-07-24 23:20:09:999 [UiAutomator2]       {
+2019-07-24 23:20:09:999 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:000 [UiAutomator2]         "value": "l"
+2019-07-24 23:20:10:000 [UiAutomator2]       },
+2019-07-24 23:20:10:000 [UiAutomator2]       {
+2019-07-24 23:20:10:001 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:003 [UiAutomator2]         "value": "l"
+2019-07-24 23:20:10:003 [UiAutomator2]       },
+2019-07-24 23:20:10:004 [UiAutomator2]       {
+2019-07-24 23:20:10:009 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:010 [UiAutomator2]         "value": "l"
+2019-07-24 23:20:10:011 [UiAutomator2]       },
+2019-07-24 23:20:10:011 [UiAutomator2]       {
+2019-07-24 23:20:10:012 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:012 [UiAutomator2]         "value": "l"
+2019-07-24 23:20:10:013 [UiAutomator2]       },
+2019-07-24 23:20:10:013 [UiAutomator2]       {
+2019-07-24 23:20:10:013 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:014 [UiAutomator2]         "value": "s"
+2019-07-24 23:20:10:014 [UiAutomator2]       },
+2019-07-24 23:20:10:015 [UiAutomator2]       {
+2019-07-24 23:20:10:015 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:016 [UiAutomator2]         "value": "s"
+2019-07-24 23:20:10:016 [UiAutomator2]       },
+2019-07-24 23:20:10:016 [UiAutomator2]       {
+2019-07-24 23:20:10:016 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:017 [UiAutomator2]         "value": "i"
+2019-07-24 23:20:10:018 [UiAutomator2]       },
+2019-07-24 23:20:10:018 [UiAutomator2]       {
+2019-07-24 23:20:10:018 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:019 [UiAutomator2]         "value": "i"
+2019-07-24 23:20:10:019 [UiAutomator2]       },
+2019-07-24 23:20:10:020 [UiAutomator2]       {
+2019-07-24 23:20:10:020 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:021 [UiAutomator2]         "value": "d"
+2019-07-24 23:20:10:022 [UiAutomator2]       },
+2019-07-24 23:20:10:022 [UiAutomator2]       {
+2019-07-24 23:20:10:023 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:023 [UiAutomator2]         "value": "d"
+2019-07-24 23:20:10:024 [UiAutomator2]       },
+2019-07-24 23:20:10:024 [UiAutomator2]       {
+2019-07-24 23:20:10:025 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:026 [UiAutomator2]         "value": "e"
+2019-07-24 23:20:10:026 [UiAutomator2]       },
+2019-07-24 23:20:10:026 [UiAutomator2]       {
+2019-07-24 23:20:10:027 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:032 [UiAutomator2]         "value": "e"
+2019-07-24 23:20:10:035 [UiAutomator2]       },
+2019-07-24 23:20:10:036 [UiAutomator2]       {
+2019-07-24 23:20:10:036 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:038 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:039 [UiAutomator2]       },
+2019-07-24 23:20:10:041 [UiAutomator2]       {
+2019-07-24 23:20:10:042 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:042 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:043 [UiAutomator2]       },
+2019-07-24 23:20:10:044 [UiAutomator2]       {
+2019-07-24 23:20:10:044 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:045 [UiAutomator2]         "value": "D"
+2019-07-24 23:20:10:045 [UiAutomator2]       },
+2019-07-24 23:20:10:046 [UiAutomator2]       {
+2019-07-24 23:20:10:046 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:046 [UiAutomator2]         "value": "D"
+2019-07-24 23:20:10:047 [UiAutomator2]       },
+2019-07-24 23:20:10:047 [UiAutomator2]       {
+2019-07-24 23:20:10:047 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:048 [UiAutomator2]         "value": "r"
+2019-07-24 23:20:10:048 [UiAutomator2]       },
+2019-07-24 23:20:10:048 [UiAutomator2]       {
+2019-07-24 23:20:10:048 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:049 [UiAutomator2]         "value": "r"
+2019-07-24 23:20:10:049 [UiAutomator2]       },
+2019-07-24 23:20:10:049 [UiAutomator2]       {
+2019-07-24 23:20:10:050 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:050 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:050 [UiAutomator2]       },
+2019-07-24 23:20:10:051 [UiAutomator2]       {
+2019-07-24 23:20:10:051 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:051 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:052 [UiAutomator2]       },
+2019-07-24 23:20:10:053 [UiAutomator2]       {
+2019-07-24 23:20:10:053 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:054 [UiAutomator2]         "value": "S"
+2019-07-24 23:20:10:054 [UiAutomator2]       },
+2019-07-24 23:20:10:054 [UiAutomator2]       {
+2019-07-24 23:20:10:055 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:055 [UiAutomator2]         "value": "S"
+2019-07-24 23:20:10:055 [UiAutomator2]       },
+2019-07-24 23:20:10:056 [UiAutomator2]       {
+2019-07-24 23:20:10:056 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:056 [UiAutomator2]         "value": ","
+2019-07-24 23:20:10:056 [UiAutomator2]       },
+2019-07-24 23:20:10:057 [UiAutomator2]       {
+2019-07-24 23:20:10:057 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:057 [UiAutomator2]         "value": ","
+2019-07-24 23:20:10:057 [UiAutomator2]       },
+2019-07-24 23:20:10:057 [UiAutomator2]       {
+2019-07-24 23:20:10:058 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:058 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:058 [UiAutomator2]       },
+2019-07-24 23:20:10:058 [UiAutomator2]       {
+2019-07-24 23:20:10:059 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:059 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:060 [UiAutomator2]       },
+2019-07-24 23:20:10:060 [UiAutomator2]       {
+2019-07-24 23:20:10:060 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:061 [UiAutomator2]         "value": "N"
+2019-07-24 23:20:10:061 [UiAutomator2]       },
+2019-07-24 23:20:10:061 [UiAutomator2]       {
+2019-07-24 23:20:10:061 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:062 [UiAutomator2]         "value": "N"
+2019-07-24 23:20:10:062 [UiAutomator2]       },
+2019-07-24 23:20:10:062 [UiAutomator2]       {
+2019-07-24 23:20:10:062 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:063 [UiAutomator2]         "value": "e"
+2019-07-24 23:20:10:063 [UiAutomator2]       },
+2019-07-24 23:20:10:063 [UiAutomator2]       {
+2019-07-24 23:20:10:064 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:064 [UiAutomator2]         "value": "e"
+2019-07-24 23:20:10:065 [UiAutomator2]       },
+2019-07-24 23:20:10:065 [UiAutomator2]       {
+2019-07-24 23:20:10:065 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:066 [UiAutomator2]         "value": "w"
+2019-07-24 23:20:10:066 [UiAutomator2]       },
+2019-07-24 23:20:10:066 [UiAutomator2]       {
+2019-07-24 23:20:10:067 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:067 [UiAutomator2]         "value": "w"
+2019-07-24 23:20:10:067 [UiAutomator2]       },
+2019-07-24 23:20:10:068 [UiAutomator2]       {
+2019-07-24 23:20:10:068 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:069 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:069 [UiAutomator2]       },
+2019-07-24 23:20:10:070 [UiAutomator2]       {
+2019-07-24 23:20:10:070 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:070 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:071 [UiAutomator2]       },
+2019-07-24 23:20:10:071 [UiAutomator2]       {
+2019-07-24 23:20:10:072 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:072 [UiAutomator2]         "value": "H"
+2019-07-24 23:20:10:073 [UiAutomator2]       },
+2019-07-24 23:20:10:073 [UiAutomator2]       {
+2019-07-24 23:20:10:073 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:074 [UiAutomator2]         "value": "H"
+2019-07-24 23:20:10:074 [UiAutomator2]       },
+2019-07-24 23:20:10:074 [UiAutomator2]       {
+2019-07-24 23:20:10:075 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:075 [UiAutomator2]         "value": "y"
+2019-07-24 23:20:10:075 [UiAutomator2]       },
+2019-07-24 23:20:10:076 [UiAutomator2]       {
+2019-07-24 23:20:10:076 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:076 [UiAutomator2]         "value": "y"
+2019-07-24 23:20:10:076 [UiAutomator2]       },
+2019-07-24 23:20:10:077 [UiAutomator2]       {
+2019-07-24 23:20:10:078 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:078 [UiAutomator2]         "value": "d"
+2019-07-24 23:20:10:078 [UiAutomator2]       },
+2019-07-24 23:20:10:079 [UiAutomator2]       {
+2019-07-24 23:20:10:079 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:079 [UiAutomator2]         "value": "d"
+2019-07-24 23:20:10:080 [UiAutomator2]       },
+2019-07-24 23:20:10:080 [UiAutomator2]       {
+2019-07-24 23:20:10:080 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:082 [UiAutomator2]         "value": "e"
+2019-07-24 23:20:10:083 [UiAutomator2]       },
+2019-07-24 23:20:10:083 [UiAutomator2]       {
+2019-07-24 23:20:10:083 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:083 [UiAutomator2]         "value": "e"
+2019-07-24 23:20:10:084 [UiAutomator2]       },
+2019-07-24 23:20:10:084 [UiAutomator2]       {
+2019-07-24 23:20:10:084 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:085 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:085 [UiAutomator2]       },
+2019-07-24 23:20:10:085 [UiAutomator2]       {
+2019-07-24 23:20:10:085 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:085 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:086 [UiAutomator2]       },
+2019-07-24 23:20:10:086 [UiAutomator2]       {
+2019-07-24 23:20:10:086 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:086 [UiAutomator2]         "value": "P"
+2019-07-24 23:20:10:087 [UiAutomator2]       },
+2019-07-24 23:20:10:087 [UiAutomator2]       {
+2019-07-24 23:20:10:087 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:087 [UiAutomator2]         "value": "P"
+2019-07-24 23:20:10:087 [UiAutomator2]       },
+2019-07-24 23:20:10:088 [UiAutomator2]       {
+2019-07-24 23:20:10:088 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:088 [UiAutomator2]         "value": "a"
+2019-07-24 23:20:10:088 [UiAutomator2]       },
+2019-07-24 23:20:10:089 [UiAutomator2]       {
+2019-07-24 23:20:10:089 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:089 [UiAutomator2]         "value": "a"
+2019-07-24 23:20:10:089 [UiAutomator2]       },
+2019-07-24 23:20:10:089 [UiAutomator2]       {
+2019-07-24 23:20:10:090 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:090 [UiAutomator2]         "value": "r"
+2019-07-24 23:20:10:090 [UiAutomator2]       },
+2019-07-24 23:20:10:090 [UiAutomator2]       {
+2019-07-24 23:20:10:090 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:091 [UiAutomator2]         "value": "r"
+2019-07-24 23:20:10:091 [UiAutomator2]       },
+2019-07-24 23:20:10:091 [UiAutomator2]       {
+2019-07-24 23:20:10:092 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:092 [UiAutomator2]         "value": "k"
+2019-07-24 23:20:10:093 [UiAutomator2]       },
+2019-07-24 23:20:10:093 [UiAutomator2]       {
+2019-07-24 23:20:10:093 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:094 [UiAutomator2]         "value": "k"
+2019-07-24 23:20:10:094 [UiAutomator2]       },
+2019-07-24 23:20:10:094 [UiAutomator2]       {
+2019-07-24 23:20:10:095 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:095 [UiAutomator2]         "value": ","
+2019-07-24 23:20:10:096 [UiAutomator2]       },
+2019-07-24 23:20:10:096 [UiAutomator2]       {
+2019-07-24 23:20:10:097 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:097 [UiAutomator2]         "value": ","
+2019-07-24 23:20:10:097 [UiAutomator2]       },
+2019-07-24 23:20:10:097 [UiAutomator2]       {
+2019-07-24 23:20:10:098 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:098 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:099 [UiAutomator2]       },
+2019-07-24 23:20:10:099 [UiAutomator2]       {
+2019-07-24 23:20:10:100 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:100 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:101 [UiAutomator2]       },
+2019-07-24 23:20:10:101 [UiAutomator2]       {
+2019-07-24 23:20:10:101 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:101 [UiAutomator2]         "value": "N"
+2019-07-24 23:20:10:102 [UiAutomator2]       },
+2019-07-24 23:20:10:102 [UiAutomator2]       {
+2019-07-24 23:20:10:103 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:103 [UiAutomator2]         "value": "N"
+2019-07-24 23:20:10:103 [UiAutomator2]       },
+2019-07-24 23:20:10:104 [UiAutomator2]       {
+2019-07-24 23:20:10:104 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:104 [UiAutomator2]         "value": "Y"
+2019-07-24 23:20:10:105 [UiAutomator2]       },
+2019-07-24 23:20:10:105 [UiAutomator2]       {
+2019-07-24 23:20:10:105 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:105 [UiAutomator2]         "value": "Y"
+2019-07-24 23:20:10:105 [UiAutomator2]       },
+2019-07-24 23:20:10:105 [UiAutomator2]       {
+2019-07-24 23:20:10:106 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:106 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:106 [UiAutomator2]       },
+2019-07-24 23:20:10:106 [UiAutomator2]       {
+2019-07-24 23:20:10:106 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:107 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:107 [UiAutomator2]       },
+2019-07-24 23:20:10:108 [UiAutomator2]       {
+2019-07-24 23:20:10:108 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:109 [UiAutomator2]         "value": "1"
+2019-07-24 23:20:10:109 [UiAutomator2]       },
+2019-07-24 23:20:10:110 [UiAutomator2]       {
+2019-07-24 23:20:10:110 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:110 [UiAutomator2]         "value": "1"
+2019-07-24 23:20:10:111 [UiAutomator2]       },
+2019-07-24 23:20:10:111 [UiAutomator2]       {
+2019-07-24 23:20:10:111 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:112 [UiAutomator2]         "value": "1"
+2019-07-24 23:20:10:112 [UiAutomator2]       },
+2019-07-24 23:20:10:112 [UiAutomator2]       {
+2019-07-24 23:20:10:113 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:113 [UiAutomator2]         "value": "1"
+2019-07-24 23:20:10:114 [UiAutomator2]       },
+2019-07-24 23:20:10:114 [UiAutomator2]       {
+2019-07-24 23:20:10:115 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:115 [UiAutomator2]         "value": "0"
+2019-07-24 23:20:10:115 [UiAutomator2]       },
+2019-07-24 23:20:10:116 [UiAutomator2]       {
+2019-07-24 23:20:10:116 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:117 [UiAutomator2]         "value": "0"
+2019-07-24 23:20:10:117 [UiAutomator2]       },
+2019-07-24 23:20:10:118 [UiAutomator2]       {
+2019-07-24 23:20:10:118 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:118 [UiAutomator2]         "value": "4"
+2019-07-24 23:20:10:119 [UiAutomator2]       },
+2019-07-24 23:20:10:119 [UiAutomator2]       {
+2019-07-24 23:20:10:120 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:120 [UiAutomator2]         "value": "4"
+2019-07-24 23:20:10:120 [UiAutomator2]       },
+2019-07-24 23:20:10:120 [UiAutomator2]       {
+2019-07-24 23:20:10:121 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:121 [UiAutomator2]         "value": "0"
+2019-07-24 23:20:10:122 [UiAutomator2]       },
+2019-07-24 23:20:10:122 [UiAutomator2]       {
+2019-07-24 23:20:10:122 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:123 [UiAutomator2]         "value": "0"
+2019-07-24 23:20:10:123 [UiAutomator2]       }
+2019-07-24 23:20:10:123 [UiAutomator2]     ],
+2019-07-24 23:20:10:124 [UiAutomator2]     "id": "default keyboard"
+2019-07-24 23:20:10:124 [UiAutomator2]   }
+2019-07-24 23:20:10:125 [UiAutomator2] ]
+2019-07-24 23:20:10:126 [UiAutomator2] Preprocessed actions: [
+2019-07-24 23:20:10:126 [UiAutomator2]   {
+2019-07-24 23:20:10:127 [UiAutomator2]     "type": "key",
+2019-07-24 23:20:10:128 [UiAutomator2]     "actions": [
+2019-07-24 23:20:10:128 [UiAutomator2]       {
+2019-07-24 23:20:10:128 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:129 [UiAutomator2]         "value": "4"
+2019-07-24 23:20:10:129 [UiAutomator2]       },
+2019-07-24 23:20:10:130 [UiAutomator2]       {
+2019-07-24 23:20:10:130 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:131 [UiAutomator2]         "value": "4"
+2019-07-24 23:20:10:133 [UiAutomator2]       },
+2019-07-24 23:20:10:134 [UiAutomator2]       {
+2019-07-24 23:20:10:134 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:134 [UiAutomator2]         "value": "5"
+2019-07-24 23:20:10:135 [UiAutomator2]       },
+2019-07-24 23:20:10:135 [UiAutomator2]       {
+2019-07-24 23:20:10:136 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:136 [UiAutomator2]         "value": "5"
+2019-07-24 23:20:10:136 [UiAutomator2]       },
+2019-07-24 23:20:10:137 [UiAutomator2]       {
+2019-07-24 23:20:10:137 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:137 [UiAutomator2]         "value": "8"
+2019-07-24 23:20:10:138 [UiAutomator2]       },
+2019-07-24 23:20:10:138 [UiAutomator2]       {
+2019-07-24 23:20:10:138 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:139 [UiAutomator2]         "value": "8"
+2019-07-24 23:20:10:139 [UiAutomator2]       },
+2019-07-24 23:20:10:139 [UiAutomator2]       {
+2019-07-24 23:20:10:140 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:140 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:140 [UiAutomator2]       },
+2019-07-24 23:20:10:141 [UiAutomator2]       {
+2019-07-24 23:20:10:141 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:142 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:151 [UiAutomator2]       },
+2019-07-24 23:20:10:151 [UiAutomator2]       {
+2019-07-24 23:20:10:152 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:152 [UiAutomator2]         "value": "H"
+2019-07-24 23:20:10:152 [UiAutomator2]       },
+2019-07-24 23:20:10:152 [UiAutomator2]       {
+2019-07-24 23:20:10:153 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:153 [UiAutomator2]         "value": "H"
+2019-07-24 23:20:10:153 [UiAutomator2]       },
+2019-07-24 23:20:10:154 [UiAutomator2]       {
+2019-07-24 23:20:10:154 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:155 [UiAutomator2]         "value": "i"
+2019-07-24 23:20:10:155 [UiAutomator2]       },
+2019-07-24 23:20:10:156 [UiAutomator2]       {
+2019-07-24 23:20:10:156 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:156 [UiAutomator2]         "value": "i"
+2019-07-24 23:20:10:156 [UiAutomator2]       },
+2019-07-24 23:20:10:157 [UiAutomator2]       {
+2019-07-24 23:20:10:157 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:157 [UiAutomator2]         "value": "l"
+2019-07-24 23:20:10:158 [UiAutomator2]       },
+2019-07-24 23:20:10:158 [UiAutomator2]       {
+2019-07-24 23:20:10:158 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:158 [UiAutomator2]         "value": "l"
+2019-07-24 23:20:10:159 [UiAutomator2]       },
+2019-07-24 23:20:10:159 [UiAutomator2]       {
+2019-07-24 23:20:10:160 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:160 [UiAutomator2]         "value": "l"
+2019-07-24 23:20:10:161 [UiAutomator2]       },
+2019-07-24 23:20:10:161 [UiAutomator2]       {
+2019-07-24 23:20:10:162 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:163 [UiAutomator2]         "value": "l"
+2019-07-24 23:20:10:163 [UiAutomator2]       },
+2019-07-24 23:20:10:164 [UiAutomator2]       {
+2019-07-24 23:20:10:165 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:166 [UiAutomator2]         "value": "s"
+2019-07-24 23:20:10:166 [UiAutomator2]       },
+2019-07-24 23:20:10:167 [UiAutomator2]       {
+2019-07-24 23:20:10:167 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:168 [UiAutomator2]         "value": "s"
+2019-07-24 23:20:10:168 [UiAutomator2]       },
+2019-07-24 23:20:10:168 [UiAutomator2]       {
+2019-07-24 23:20:10:169 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:169 [UiAutomator2]         "value": "i"
+2019-07-24 23:20:10:170 [UiAutomator2]       },
+2019-07-24 23:20:10:170 [UiAutomator2]       {
+2019-07-24 23:20:10:171 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:171 [UiAutomator2]         "value": "i"
+2019-07-24 23:20:10:173 [UiAutomator2]       },
+2019-07-24 23:20:10:173 [UiAutomator2]       {
+2019-07-24 23:20:10:173 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:176 [UiAutomator2]         "value": "d"
+2019-07-24 23:20:10:177 [UiAutomator2]       },
+2019-07-24 23:20:10:177 [UiAutomator2]       {
+2019-07-24 23:20:10:178 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:179 [UiAutomator2]         "value": "d"
+2019-07-24 23:20:10:179 [UiAutomator2]       },
+2019-07-24 23:20:10:180 [UiAutomator2]       {
+2019-07-24 23:20:10:180 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:180 [UiAutomator2]         "value": "e"
+2019-07-24 23:20:10:181 [UiAutomator2]       },
+2019-07-24 23:20:10:182 [UiAutomator2]       {
+2019-07-24 23:20:10:182 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:183 [UiAutomator2]         "value": "e"
+2019-07-24 23:20:10:183 [UiAutomator2]       },
+2019-07-24 23:20:10:184 [UiAutomator2]       {
+2019-07-24 23:20:10:184 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:184 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:185 [UiAutomator2]       },
+2019-07-24 23:20:10:185 [UiAutomator2]       {
+2019-07-24 23:20:10:186 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:186 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:186 [UiAutomator2]       },
+2019-07-24 23:20:10:187 [UiAutomator2]       {
+2019-07-24 23:20:10:187 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:187 [UiAutomator2]         "value": "D"
+2019-07-24 23:20:10:188 [UiAutomator2]       },
+2019-07-24 23:20:10:188 [UiAutomator2]       {
+2019-07-24 23:20:10:189 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:189 [UiAutomator2]         "value": "D"
+2019-07-24 23:20:10:189 [UiAutomator2]       },
+2019-07-24 23:20:10:190 [UiAutomator2]       {
+2019-07-24 23:20:10:190 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:191 [UiAutomator2]         "value": "r"
+2019-07-24 23:20:10:191 [UiAutomator2]       },
+2019-07-24 23:20:10:191 [UiAutomator2]       {
+2019-07-24 23:20:10:192 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:192 [UiAutomator2]         "value": "r"
+2019-07-24 23:20:10:192 [UiAutomator2]       },
+2019-07-24 23:20:10:193 [UiAutomator2]       {
+2019-07-24 23:20:10:193 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:193 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:194 [UiAutomator2]       },
+2019-07-24 23:20:10:194 [UiAutomator2]       {
+2019-07-24 23:20:10:194 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:195 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:196 [UiAutomator2]       },
+2019-07-24 23:20:10:196 [UiAutomator2]       {
+2019-07-24 23:20:10:196 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:197 [UiAutomator2]         "value": "S"
+2019-07-24 23:20:10:197 [UiAutomator2]       },
+2019-07-24 23:20:10:197 [UiAutomator2]       {
+2019-07-24 23:20:10:197 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:198 [UiAutomator2]         "value": "S"
+2019-07-24 23:20:10:198 [UiAutomator2]       },
+2019-07-24 23:20:10:198 [UiAutomator2]       {
+2019-07-24 23:20:10:199 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:199 [UiAutomator2]         "value": ","
+2019-07-24 23:20:10:199 [UiAutomator2]       },
+2019-07-24 23:20:10:200 [UiAutomator2]       {
+2019-07-24 23:20:10:200 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:200 [UiAutomator2]         "value": ","
+2019-07-24 23:20:10:201 [UiAutomator2]       },
+2019-07-24 23:20:10:201 [UiAutomator2]       {
+2019-07-24 23:20:10:201 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:202 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:203 [UiAutomator2]       },
+2019-07-24 23:20:10:210 [UiAutomator2]       {
+2019-07-24 23:20:10:211 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:212 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:212 [UiAutomator2]       },
+2019-07-24 23:20:10:216 [UiAutomator2]       {
+2019-07-24 23:20:10:217 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:217 [UiAutomator2]         "value": "N"
+2019-07-24 23:20:10:217 [UiAutomator2]       },
+2019-07-24 23:20:10:217 [UiAutomator2]       {
+2019-07-24 23:20:10:218 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:218 [UiAutomator2]         "value": "N"
+2019-07-24 23:20:10:218 [UiAutomator2]       },
+2019-07-24 23:20:10:219 [UiAutomator2]       {
+2019-07-24 23:20:10:219 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:219 [UiAutomator2]         "value": "e"
+2019-07-24 23:20:10:220 [UiAutomator2]       },
+2019-07-24 23:20:10:220 [UiAutomator2]       {
+2019-07-24 23:20:10:221 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:221 [UiAutomator2]         "value": "e"
+2019-07-24 23:20:10:221 [UiAutomator2]       },
+2019-07-24 23:20:10:222 [UiAutomator2]       {
+2019-07-24 23:20:10:222 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:222 [UiAutomator2]         "value": "w"
+2019-07-24 23:20:10:223 [UiAutomator2]       },
+2019-07-24 23:20:10:223 [UiAutomator2]       {
+2019-07-24 23:20:10:224 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:225 [UiAutomator2]         "value": "w"
+2019-07-24 23:20:10:225 [UiAutomator2]       },
+2019-07-24 23:20:10:226 [UiAutomator2]       {
+2019-07-24 23:20:10:226 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:228 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:228 [UiAutomator2]       },
+2019-07-24 23:20:10:228 [UiAutomator2]       {
+2019-07-24 23:20:10:229 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:229 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:229 [UiAutomator2]       },
+2019-07-24 23:20:10:230 [UiAutomator2]       {
+2019-07-24 23:20:10:230 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:230 [UiAutomator2]         "value": "H"
+2019-07-24 23:20:10:231 [UiAutomator2]       },
+2019-07-24 23:20:10:231 [UiAutomator2]       {
+2019-07-24 23:20:10:231 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:232 [UiAutomator2]         "value": "H"
+2019-07-24 23:20:10:232 [UiAutomator2]       },
+2019-07-24 23:20:10:232 [UiAutomator2]       {
+2019-07-24 23:20:10:233 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:233 [UiAutomator2]         "value": "y"
+2019-07-24 23:20:10:234 [UiAutomator2]       },
+2019-07-24 23:20:10:235 [UiAutomator2]       {
+2019-07-24 23:20:10:239 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:240 [UiAutomator2]         "value": "y"
+2019-07-24 23:20:10:240 [UiAutomator2]       },
+2019-07-24 23:20:10:242 [UiAutomator2]       {
+2019-07-24 23:20:10:243 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:244 [UiAutomator2]         "value": "d"
+2019-07-24 23:20:10:245 [UiAutomator2]       },
+2019-07-24 23:20:10:245 [UiAutomator2]       {
+2019-07-24 23:20:10:246 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:247 [UiAutomator2]         "value": "d"
+2019-07-24 23:20:10:248 [UiAutomator2]       },
+2019-07-24 23:20:10:248 [UiAutomator2]       {
+2019-07-24 23:20:10:249 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:249 [UiAutomator2]         "value": "e"
+2019-07-24 23:20:10:249 [UiAutomator2]       },
+2019-07-24 23:20:10:250 [UiAutomator2]       {
+2019-07-24 23:20:10:250 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:251 [UiAutomator2]         "value": "e"
+2019-07-24 23:20:10:251 [UiAutomator2]       },
+2019-07-24 23:20:10:251 [UiAutomator2]       {
+2019-07-24 23:20:10:252 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:252 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:252 [UiAutomator2]       },
+2019-07-24 23:20:10:252 [UiAutomator2]       {
+2019-07-24 23:20:10:253 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:253 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:253 [UiAutomator2]       },
+2019-07-24 23:20:10:253 [UiAutomator2]       {
+2019-07-24 23:20:10:253 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:254 [UiAutomator2]         "value": "P"
+2019-07-24 23:20:10:254 [UiAutomator2]       },
+2019-07-24 23:20:10:254 [UiAutomator2]       {
+2019-07-24 23:20:10:254 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:254 [UiAutomator2]         "value": "P"
+2019-07-24 23:20:10:255 [UiAutomator2]       },
+2019-07-24 23:20:10:255 [UiAutomator2]       {
+2019-07-24 23:20:10:255 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:255 [UiAutomator2]         "value": "a"
+2019-07-24 23:20:10:255 [UiAutomator2]       },
+2019-07-24 23:20:10:256 [UiAutomator2]       {
+2019-07-24 23:20:10:256 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:256 [UiAutomator2]         "value": "a"
+2019-07-24 23:20:10:256 [UiAutomator2]       },
+2019-07-24 23:20:10:257 [UiAutomator2]       {
+2019-07-24 23:20:10:258 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:259 [UiAutomator2]         "value": "r"
+2019-07-24 23:20:10:261 [UiAutomator2]       },
+2019-07-24 23:20:10:261 [UiAutomator2]       {
+2019-07-24 23:20:10:262 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:262 [UiAutomator2]         "value": "r"
+2019-07-24 23:20:10:262 [UiAutomator2]       },
+2019-07-24 23:20:10:263 [UiAutomator2]       {
+2019-07-24 23:20:10:264 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:264 [UiAutomator2]         "value": "k"
+2019-07-24 23:20:10:264 [UiAutomator2]       },
+2019-07-24 23:20:10:265 [UiAutomator2]       {
+2019-07-24 23:20:10:266 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:266 [UiAutomator2]         "value": "k"
+2019-07-24 23:20:10:267 [UiAutomator2]       },
+2019-07-24 23:20:10:267 [UiAutomator2]       {
+2019-07-24 23:20:10:267 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:268 [UiAutomator2]         "value": ","
+2019-07-24 23:20:10:268 [UiAutomator2]       },
+2019-07-24 23:20:10:268 [UiAutomator2]       {
+2019-07-24 23:20:10:269 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:269 [UiAutomator2]         "value": ","
+2019-07-24 23:20:10:271 [UiAutomator2]       },
+2019-07-24 23:20:10:272 [UiAutomator2]       {
+2019-07-24 23:20:10:272 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:273 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:275 [UiAutomator2]       },
+2019-07-24 23:20:10:275 [UiAutomator2]       {
+2019-07-24 23:20:10:276 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:277 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:277 [UiAutomator2]       },
+2019-07-24 23:20:10:277 [UiAutomator2]       {
+2019-07-24 23:20:10:278 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:278 [UiAutomator2]         "value": "N"
+2019-07-24 23:20:10:279 [UiAutomator2]       },
+2019-07-24 23:20:10:279 [UiAutomator2]       {
+2019-07-24 23:20:10:279 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:280 [UiAutomator2]         "value": "N"
+2019-07-24 23:20:10:280 [UiAutomator2]       },
+2019-07-24 23:20:10:280 [UiAutomator2]       {
+2019-07-24 23:20:10:280 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:281 [UiAutomator2]         "value": "Y"
+2019-07-24 23:20:10:281 [UiAutomator2]       },
+2019-07-24 23:20:10:281 [UiAutomator2]       {
+2019-07-24 23:20:10:282 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:282 [UiAutomator2]         "value": "Y"
+2019-07-24 23:20:10:282 [UiAutomator2]       },
+2019-07-24 23:20:10:283 [UiAutomator2]       {
+2019-07-24 23:20:10:284 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:284 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:285 [UiAutomator2]       },
+2019-07-24 23:20:10:285 [UiAutomator2]       {
+2019-07-24 23:20:10:289 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:289 [UiAutomator2]         "value": " "
+2019-07-24 23:20:10:290 [UiAutomator2]       },
+2019-07-24 23:20:10:290 [UiAutomator2]       {
+2019-07-24 23:20:10:291 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:292 [UiAutomator2]         "value": "1"
+2019-07-24 23:20:10:292 [UiAutomator2]       },
+2019-07-24 23:20:10:293 [UiAutomator2]       {
+2019-07-24 23:20:10:294 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:294 [UiAutomator2]         "value": "1"
+2019-07-24 23:20:10:294 [UiAutomator2]       },
+2019-07-24 23:20:10:295 [UiAutomator2]       {
+2019-07-24 23:20:10:295 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:295 [UiAutomator2]         "value": "1"
+2019-07-24 23:20:10:296 [UiAutomator2]       },
+2019-07-24 23:20:10:296 [UiAutomator2]       {
+2019-07-24 23:20:10:296 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:297 [UiAutomator2]         "value": "1"
+2019-07-24 23:20:10:297 [UiAutomator2]       },
+2019-07-24 23:20:10:297 [UiAutomator2]       {
+2019-07-24 23:20:10:298 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:299 [UiAutomator2]         "value": "0"
+2019-07-24 23:20:10:299 [UiAutomator2]       },
+2019-07-24 23:20:10:300 [UiAutomator2]       {
+2019-07-24 23:20:10:302 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:302 [UiAutomator2]         "value": "0"
+2019-07-24 23:20:10:303 [UiAutomator2]       },
+2019-07-24 23:20:10:304 [UiAutomator2]       {
+2019-07-24 23:20:10:304 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:305 [UiAutomator2]         "value": "4"
+2019-07-24 23:20:10:306 [UiAutomator2]       },
+2019-07-24 23:20:10:307 [UiAutomator2]       {
+2019-07-24 23:20:10:310 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:310 [UiAutomator2]         "value": "4"
+2019-07-24 23:20:10:312 [UiAutomator2]       },
+2019-07-24 23:20:10:313 [UiAutomator2]       {
+2019-07-24 23:20:10:313 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:10:314 [UiAutomator2]         "value": "0"
+2019-07-24 23:20:10:315 [UiAutomator2]       },
+2019-07-24 23:20:10:315 [UiAutomator2]       {
+2019-07-24 23:20:10:315 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:10:316 [UiAutomator2]         "value": "0"
+2019-07-24 23:20:10:316 [UiAutomator2]       }
+2019-07-24 23:20:10:316 [UiAutomator2]     ],
+2019-07-24 23:20:10:317 [UiAutomator2]     "id": "default keyboard"
+2019-07-24 23:20:10:318 [UiAutomator2]   }
+2019-07-24 23:20:10:318 [UiAutomator2] ]
+2019-07-24 23:20:10:330 [WD Proxy] Matched '/actions' to command name 'performActions'
+2019-07-24 23:20:10:332 [WD Proxy] Proxying [POST /actions] to [POST http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/actions] with body: {"actions":[{"type":"key","actions":[{"type":"keyDown","value":"4"},{"type":"keyUp","value":"4"},{"type":"keyDown","value":"5"},{"type":"keyUp","value":"5"},{"type":"keyDown","value":"8"},{"type":"keyUp","value":"8"},{"type":"keyDown","value":" "},{"type":"keyUp","value":" "},{"type":"keyDown","value":"H"},{"type":"keyUp","value":"H"},{"type":"keyDown","value":"i"},{"type":"keyUp","value":"i"},{"type":"keyDown","value":"l"},{"type":"keyUp","value":"l"},{"type":"keyDown","value":"l"},{"type":"keyUp","value":"l"},{"type":"keyDown","value":"s"},{"type":"keyUp","value":"s"},{"type":"keyDown","value":"i"},{"type":"keyUp","value":"i"},{"type":"keyDown","value":"d"},{"type":"keyUp","value":"d"},{"type":"keyDown","value":"e"},{"type":"keyUp","value":"e"},{"type":"keyDown","value":" "},{"type":"keyUp","value":" "},{"type":"keyDown","value":"D"},{"type":"keyUp","value":"D"},{"type":"keyDown","value":"r"},{"type":"keyUp","value":"r"},{"type":"keyDown","value":" "},{"type":"keyUp","value":" "},{"type":"keyDown","value...
+2019-07-24 23:20:14:321 [WD Proxy] Got response with status 200: {"sessionId":"4cf87f2d-88da-4265-ba43-de9d63b105c5","status":0,"value":"OK"}
+2019-07-24 23:20:14:322 [W3C (7f8f7cca)] Responding to client with driver.performActions() result: "OK"
+2019-07-24 23:20:14:324 [HTTP] <-- POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/actions 200 4357 ms - 14
+2019-07-24 23:20:14:324 [HTTP] 
+2019-07-24 23:20:14:365 [HTTP] --> POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/appium/device/press_keycode
+2019-07-24 23:20:14:365 [HTTP] {"keycode":66}
+2019-07-24 23:20:14:368 [W3C (7f8f7cca)] Calling AppiumDriver.pressKeyCode() with args: [66,null,null,null,null,"7f8f7cca-250d-4d78-8921-e886a93277cb"]
+2019-07-24 23:20:14:372 [WD Proxy] Matched '/appium/device/press_keycode' to command name 'pressKeyCode'
+2019-07-24 23:20:14:372 [WD Proxy] Proxying [POST /appium/device/press_keycode] to [POST http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/appium/device/press_keycode] with body: {"keycode":66,"metastate":null,"flags":null}
+2019-07-24 23:20:15:165 [WD Proxy] Got response with status 200: {"sessionId":"4cf87f2d-88da-4265-ba43-de9d63b105c5","status":0,"value":true}
+2019-07-24 23:20:15:166 [W3C (7f8f7cca)] Responding to client with driver.pressKeyCode() result: true
+2019-07-24 23:20:15:168 [HTTP] <-- POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/appium/device/press_keycode 200 802 ms - 14
+2019-07-24 23:20:15:169 [HTTP] 
+2019-07-24 23:20:15:176 [HTTP] --> POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element
+2019-07-24 23:20:15:176 [HTTP] {"using":"id","value":"com.google.android.apps.maps:id/placepage_directions_button"}
+2019-07-24 23:20:15:177 [W3C (7f8f7cca)] Calling AppiumDriver.findElement() with args: ["id","com.google.android.apps.maps:id/placepage_directions_button","7f8f7cca-250d-4d78-8921-e886a93277cb"]
+2019-07-24 23:20:15:178 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-07-24 23:20:15:179 [BaseDriver] Waiting up to 10000 ms for condition
+2019-07-24 23:20:15:179 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-07-24 23:20:15:179 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/element] with body: {"strategy":"id","selector":"com.google.android.apps.maps:id/placepage_directions_button","context":"","multiple":false}
+2019-07-24 23:20:18:359 [WD Proxy] Got response with status 200: {"sessionId":"4cf87f2d-88da-4265-ba43-de9d63b105c5","status":0,"value":{"ELEMENT":"b4c3875e-4faf-466e-8afb-c735180b7e24"}}
+2019-07-24 23:20:18:360 [W3C (7f8f7cca)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"b4c3875e-4faf-466e-8afb-c735180b7e24","ELEMENT":"b4c3875e-4faf-466e-8afb-c735180b7e24"}
+2019-07-24 23:20:18:362 [HTTP] <-- POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element 200 3185 ms - 137
+2019-07-24 23:20:18:363 [HTTP] 
+2019-07-24 23:20:18:371 [HTTP] --> POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element/b4c3875e-4faf-466e-8afb-c735180b7e24/click
+2019-07-24 23:20:18:374 [HTTP] {"id":"b4c3875e-4faf-466e-8afb-c735180b7e24"}
+2019-07-24 23:20:18:375 [W3C (7f8f7cca)] Calling AppiumDriver.click() with args: ["b4c3875e-4faf-466e-8afb-c735180b7e24","7f8f7cca-250d-4d78-8921-e886a93277cb"]
+2019-07-24 23:20:18:377 [WD Proxy] Matched '/element/b4c3875e-4faf-466e-8afb-c735180b7e24/click' to command name 'click'
+2019-07-24 23:20:18:378 [WD Proxy] Proxying [POST /element/b4c3875e-4faf-466e-8afb-c735180b7e24/click] to [POST http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/element/b4c3875e-4faf-466e-8afb-c735180b7e24/click] with body: {"element":"b4c3875e-4faf-466e-8afb-c735180b7e24"}
+2019-07-24 23:20:18:644 [WD Proxy] Got response with status 200: {"sessionId":"4cf87f2d-88da-4265-ba43-de9d63b105c5","status":0,"value":true}
+2019-07-24 23:20:18:645 [W3C (7f8f7cca)] Responding to client with driver.click() result: true
+2019-07-24 23:20:18:647 [HTTP] <-- POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element/b4c3875e-4faf-466e-8afb-c735180b7e24/click 200 275 ms - 14
+2019-07-24 23:20:18:647 [HTTP] 
+2019-07-24 23:20:23:651 [HTTP] --> POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element
+2019-07-24 23:20:23:651 [HTTP] {"using":"id","value":"com.google.android.apps.maps:id/directions_startpoint_textbox"}
+2019-07-24 23:20:23:651 [W3C (7f8f7cca)] Calling AppiumDriver.findElement() with args: ["id","com.google.android.apps.maps:id/directions_startpoint_textbox","7f8f7cca-250d-4d78-8921-e886a93277cb"]
+2019-07-24 23:20:23:652 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-07-24 23:20:23:652 [BaseDriver] Waiting up to 10000 ms for condition
+2019-07-24 23:20:23:653 [WD Proxy] Matched '/element' to command name 'findElement'
+2019-07-24 23:20:23:653 [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/element] with body: {"strategy":"id","selector":"com.google.android.apps.maps:id/directions_startpoint_textbox","context":"","multiple":false}
+2019-07-24 23:20:23:713 [WD Proxy] Got response with status 200: {"sessionId":"4cf87f2d-88da-4265-ba43-de9d63b105c5","status":0,"value":{"ELEMENT":"a83f0348-a9d1-422d-9312-db5d5b9fe3bc"}}
+2019-07-24 23:20:23:714 [W3C (7f8f7cca)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"a83f0348-a9d1-422d-9312-db5d5b9fe3bc","ELEMENT":"a83f0348-a9d1-422d-9312-db5d5b9fe3bc"}
+2019-07-24 23:20:23:714 [HTTP] <-- POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element 200 63 ms - 137
+2019-07-24 23:20:23:715 [HTTP] 
+2019-07-24 23:20:23:718 [HTTP] --> POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element/a83f0348-a9d1-422d-9312-db5d5b9fe3bc/click
+2019-07-24 23:20:23:718 [HTTP] {"id":"a83f0348-a9d1-422d-9312-db5d5b9fe3bc"}
+2019-07-24 23:20:23:719 [W3C (7f8f7cca)] Calling AppiumDriver.click() with args: ["a83f0348-a9d1-422d-9312-db5d5b9fe3bc","7f8f7cca-250d-4d78-8921-e886a93277cb"]
+2019-07-24 23:20:23:720 [WD Proxy] Matched '/element/a83f0348-a9d1-422d-9312-db5d5b9fe3bc/click' to command name 'click'
+2019-07-24 23:20:23:720 [WD Proxy] Proxying [POST /element/a83f0348-a9d1-422d-9312-db5d5b9fe3bc/click] to [POST http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/element/a83f0348-a9d1-422d-9312-db5d5b9fe3bc/click] with body: {"element":"a83f0348-a9d1-422d-9312-db5d5b9fe3bc"}
+2019-07-24 23:20:23:761 [WD Proxy] Got response with status 200: {"sessionId":"4cf87f2d-88da-4265-ba43-de9d63b105c5","status":0,"value":true}
+2019-07-24 23:20:23:762 [W3C (7f8f7cca)] Responding to client with driver.click() result: true
+2019-07-24 23:20:23:767 [HTTP] <-- POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element/a83f0348-a9d1-422d-9312-db5d5b9fe3bc/click 200 44 ms - 14
+2019-07-24 23:20:23:768 [HTTP] 
+2019-07-24 23:20:28:774 [HTTP] --> POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/actions
+2019-07-24 23:20:28:775 [HTTP] {"actions":[{"type":"key","actions":[{"type":"keyDown","value":"C"},{"type":"keyUp","value":"C"},{"type":"keyDown","value":"o"},{"type":"keyUp","value":"o"},{"type":"keyDown","value":"l"},{"type":"keyUp","value":"l"},{"type":"keyDown","value":"u"},{"type":"keyUp","value":"u"},{"type":"keyDown","value":"m"},{"type":"keyUp","value":"m"},{"type":"keyDown","value":"b"},{"type":"keyUp","value":"b"},{"type":"keyDown","value":"u"},{"type":"keyUp","value":"u"},{"type":"keyDown","value":"s"},{"type":"keyUp","value":"s"},{"type":"keyDown","value":","},{"type":"keyUp","value":","},{"type":"keyDown","value":" "},{"type":"keyUp","value":" "},{"type":"keyDown","value":"O"},{"type":"keyUp","value":"O"},{"type":"keyDown","value":"H"},{"type":"keyUp","value":"H"},{"type":"keyDown","value":" "},{"type":"keyUp","value":" "},{"type":"keyDown","value":"4"},{"type":"keyUp","value":"4"},{"type":"keyDown","value":"3"},{"type":"keyUp","value":"3"},{"type":"keyDown","value":"2"},{"type":"keyUp","value":"2"},{"t
+2019-07-24 23:20:28:776 [W3C (7f8f7cca)] Calling AppiumDriver.performActions() with args: [[{"type":"key","actions":[{"type":"keyDown","value":"C"},{"type":"keyUp","value":"C"},{"type":"keyDown","value":"o"},{"type":"keyUp","value":"o"},{"type":"keyDown","value":"l"},{"type":"keyUp","value":"l"},{"type":"keyDown","value":"u"},{"type":"keyUp","value":"u"},{"type":"keyDown","value":"m"},{"type":"keyUp","value":"m"},{"type":"keyDown","value":"b"},{"type":"keyUp","value":"b"},{"type":"keyDown","value":"u"},{"type":"keyUp","value":"u"},{"type":"keyDown","value":"s"},{"type":"keyUp","value":"s"},{"type":"keyDown","value":","},{"type":"keyUp","value":","},{"type":"keyDown","value":" "},{"type":"keyUp","value":" "},{"type":"keyDown","value":"O"},{"type":"keyUp","value":"O"},{"type":"keyDown","value":"H"},{"type":"keyUp","value":"H"},{"type":"keyDown","value":" "},{"type":"keyUp","value":" "},{"type":"keyDown","value":"4"},{"type":"keyUp","value":"4"},{"type":"keyDown","value":"3"},{"type":"keyUp","value":"3"},{"type":"keyDown","value":"2"},{"type":"keyUp","value":"2"},{"type":"keyDown","value":"4"},{"t...
+2019-07-24 23:20:28:777 [UiAutomator2] Received the following W3C actions: [
+2019-07-24 23:20:28:777 [UiAutomator2]   {
+2019-07-24 23:20:28:777 [UiAutomator2]     "type": "key",
+2019-07-24 23:20:28:778 [UiAutomator2]     "actions": [
+2019-07-24 23:20:28:778 [UiAutomator2]       {
+2019-07-24 23:20:28:778 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:778 [UiAutomator2]         "value": "C"
+2019-07-24 23:20:28:778 [UiAutomator2]       },
+2019-07-24 23:20:28:779 [UiAutomator2]       {
+2019-07-24 23:20:28:779 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:779 [UiAutomator2]         "value": "C"
+2019-07-24 23:20:28:779 [UiAutomator2]       },
+2019-07-24 23:20:28:779 [UiAutomator2]       {
+2019-07-24 23:20:28:779 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:779 [UiAutomator2]         "value": "o"
+2019-07-24 23:20:28:780 [UiAutomator2]       },
+2019-07-24 23:20:28:780 [UiAutomator2]       {
+2019-07-24 23:20:28:780 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:780 [UiAutomator2]         "value": "o"
+2019-07-24 23:20:28:780 [UiAutomator2]       },
+2019-07-24 23:20:28:780 [UiAutomator2]       {
+2019-07-24 23:20:28:781 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:781 [UiAutomator2]         "value": "l"
+2019-07-24 23:20:28:781 [UiAutomator2]       },
+2019-07-24 23:20:28:781 [UiAutomator2]       {
+2019-07-24 23:20:28:781 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:781 [UiAutomator2]         "value": "l"
+2019-07-24 23:20:28:781 [UiAutomator2]       },
+2019-07-24 23:20:28:782 [UiAutomator2]       {
+2019-07-24 23:20:28:782 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:782 [UiAutomator2]         "value": "u"
+2019-07-24 23:20:28:782 [UiAutomator2]       },
+2019-07-24 23:20:28:782 [UiAutomator2]       {
+2019-07-24 23:20:28:782 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:782 [UiAutomator2]         "value": "u"
+2019-07-24 23:20:28:783 [UiAutomator2]       },
+2019-07-24 23:20:28:783 [UiAutomator2]       {
+2019-07-24 23:20:28:783 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:783 [UiAutomator2]         "value": "m"
+2019-07-24 23:20:28:783 [UiAutomator2]       },
+2019-07-24 23:20:28:783 [UiAutomator2]       {
+2019-07-24 23:20:28:784 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:784 [UiAutomator2]         "value": "m"
+2019-07-24 23:20:28:784 [UiAutomator2]       },
+2019-07-24 23:20:28:784 [UiAutomator2]       {
+2019-07-24 23:20:28:786 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:786 [UiAutomator2]         "value": "b"
+2019-07-24 23:20:28:786 [UiAutomator2]       },
+2019-07-24 23:20:28:786 [UiAutomator2]       {
+2019-07-24 23:20:28:786 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:786 [UiAutomator2]         "value": "b"
+2019-07-24 23:20:28:787 [UiAutomator2]       },
+2019-07-24 23:20:28:787 [UiAutomator2]       {
+2019-07-24 23:20:28:787 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:787 [UiAutomator2]         "value": "u"
+2019-07-24 23:20:28:787 [UiAutomator2]       },
+2019-07-24 23:20:28:787 [UiAutomator2]       {
+2019-07-24 23:20:28:787 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:788 [UiAutomator2]         "value": "u"
+2019-07-24 23:20:28:788 [UiAutomator2]       },
+2019-07-24 23:20:28:788 [UiAutomator2]       {
+2019-07-24 23:20:28:788 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:788 [UiAutomator2]         "value": "s"
+2019-07-24 23:20:28:788 [UiAutomator2]       },
+2019-07-24 23:20:28:788 [UiAutomator2]       {
+2019-07-24 23:20:28:789 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:789 [UiAutomator2]         "value": "s"
+2019-07-24 23:20:28:789 [UiAutomator2]       },
+2019-07-24 23:20:28:789 [UiAutomator2]       {
+2019-07-24 23:20:28:789 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:789 [UiAutomator2]         "value": ","
+2019-07-24 23:20:28:789 [UiAutomator2]       },
+2019-07-24 23:20:28:790 [UiAutomator2]       {
+2019-07-24 23:20:28:790 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:790 [UiAutomator2]         "value": ","
+2019-07-24 23:20:28:790 [UiAutomator2]       },
+2019-07-24 23:20:28:790 [UiAutomator2]       {
+2019-07-24 23:20:28:790 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:790 [UiAutomator2]         "value": " "
+2019-07-24 23:20:28:791 [UiAutomator2]       },
+2019-07-24 23:20:28:791 [UiAutomator2]       {
+2019-07-24 23:20:28:791 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:791 [UiAutomator2]         "value": " "
+2019-07-24 23:20:28:791 [UiAutomator2]       },
+2019-07-24 23:20:28:791 [UiAutomator2]       {
+2019-07-24 23:20:28:791 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:792 [UiAutomator2]         "value": "O"
+2019-07-24 23:20:28:792 [UiAutomator2]       },
+2019-07-24 23:20:28:792 [UiAutomator2]       {
+2019-07-24 23:20:28:792 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:792 [UiAutomator2]         "value": "O"
+2019-07-24 23:20:28:792 [UiAutomator2]       },
+2019-07-24 23:20:28:793 [UiAutomator2]       {
+2019-07-24 23:20:28:793 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:793 [UiAutomator2]         "value": "H"
+2019-07-24 23:20:28:793 [UiAutomator2]       },
+2019-07-24 23:20:28:793 [UiAutomator2]       {
+2019-07-24 23:20:28:793 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:793 [UiAutomator2]         "value": "H"
+2019-07-24 23:20:28:794 [UiAutomator2]       },
+2019-07-24 23:20:28:794 [UiAutomator2]       {
+2019-07-24 23:20:28:794 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:794 [UiAutomator2]         "value": " "
+2019-07-24 23:20:28:794 [UiAutomator2]       },
+2019-07-24 23:20:28:794 [UiAutomator2]       {
+2019-07-24 23:20:28:795 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:795 [UiAutomator2]         "value": " "
+2019-07-24 23:20:28:795 [UiAutomator2]       },
+2019-07-24 23:20:28:795 [UiAutomator2]       {
+2019-07-24 23:20:28:795 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:795 [UiAutomator2]         "value": "4"
+2019-07-24 23:20:28:795 [UiAutomator2]       },
+2019-07-24 23:20:28:796 [UiAutomator2]       {
+2019-07-24 23:20:28:796 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:796 [UiAutomator2]         "value": "4"
+2019-07-24 23:20:28:796 [UiAutomator2]       },
+2019-07-24 23:20:28:797 [UiAutomator2]       {
+2019-07-24 23:20:28:797 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:798 [UiAutomator2]         "value": "3"
+2019-07-24 23:20:28:798 [UiAutomator2]       },
+2019-07-24 23:20:28:798 [UiAutomator2]       {
+2019-07-24 23:20:28:799 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:799 [UiAutomator2]         "value": "3"
+2019-07-24 23:20:28:799 [UiAutomator2]       },
+2019-07-24 23:20:28:799 [UiAutomator2]       {
+2019-07-24 23:20:28:799 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:799 [UiAutomator2]         "value": "2"
+2019-07-24 23:20:28:800 [UiAutomator2]       },
+2019-07-24 23:20:28:800 [UiAutomator2]       {
+2019-07-24 23:20:28:800 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:800 [UiAutomator2]         "value": "2"
+2019-07-24 23:20:28:800 [UiAutomator2]       },
+2019-07-24 23:20:28:800 [UiAutomator2]       {
+2019-07-24 23:20:28:800 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:801 [UiAutomator2]         "value": "4"
+2019-07-24 23:20:28:801 [UiAutomator2]       },
+2019-07-24 23:20:28:801 [UiAutomator2]       {
+2019-07-24 23:20:28:801 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:801 [UiAutomator2]         "value": "4"
+2019-07-24 23:20:28:801 [UiAutomator2]       },
+2019-07-24 23:20:28:801 [UiAutomator2]       {
+2019-07-24 23:20:28:802 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:802 [UiAutomator2]         "value": "0"
+2019-07-24 23:20:28:802 [UiAutomator2]       },
+2019-07-24 23:20:28:802 [UiAutomator2]       {
+2019-07-24 23:20:28:802 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:802 [UiAutomator2]         "value": "0"
+2019-07-24 23:20:28:803 [UiAutomator2]       }
+2019-07-24 23:20:28:803 [UiAutomator2]     ],
+2019-07-24 23:20:28:803 [UiAutomator2]     "id": "default keyboard"
+2019-07-24 23:20:28:803 [UiAutomator2]   }
+2019-07-24 23:20:28:803 [UiAutomator2] ]
+2019-07-24 23:20:28:803 [UiAutomator2] Preprocessed actions: [
+2019-07-24 23:20:28:803 [UiAutomator2]   {
+2019-07-24 23:20:28:804 [UiAutomator2]     "type": "key",
+2019-07-24 23:20:28:804 [UiAutomator2]     "actions": [
+2019-07-24 23:20:28:804 [UiAutomator2]       {
+2019-07-24 23:20:28:804 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:804 [UiAutomator2]         "value": "C"
+2019-07-24 23:20:28:804 [UiAutomator2]       },
+2019-07-24 23:20:28:805 [UiAutomator2]       {
+2019-07-24 23:20:28:805 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:805 [UiAutomator2]         "value": "C"
+2019-07-24 23:20:28:805 [UiAutomator2]       },
+2019-07-24 23:20:28:805 [UiAutomator2]       {
+2019-07-24 23:20:28:805 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:805 [UiAutomator2]         "value": "o"
+2019-07-24 23:20:28:806 [UiAutomator2]       },
+2019-07-24 23:20:28:806 [UiAutomator2]       {
+2019-07-24 23:20:28:806 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:806 [UiAutomator2]         "value": "o"
+2019-07-24 23:20:28:806 [UiAutomator2]       },
+2019-07-24 23:20:28:806 [UiAutomator2]       {
+2019-07-24 23:20:28:806 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:807 [UiAutomator2]         "value": "l"
+2019-07-24 23:20:28:807 [UiAutomator2]       },
+2019-07-24 23:20:28:807 [UiAutomator2]       {
+2019-07-24 23:20:28:807 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:807 [UiAutomator2]         "value": "l"
+2019-07-24 23:20:28:807 [UiAutomator2]       },
+2019-07-24 23:20:28:808 [UiAutomator2]       {
+2019-07-24 23:20:28:808 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:808 [UiAutomator2]         "value": "u"
+2019-07-24 23:20:28:808 [UiAutomator2]       },
+2019-07-24 23:20:28:808 [UiAutomator2]       {
+2019-07-24 23:20:28:808 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:809 [UiAutomator2]         "value": "u"
+2019-07-24 23:20:28:809 [UiAutomator2]       },
+2019-07-24 23:20:28:809 [UiAutomator2]       {
+2019-07-24 23:20:28:809 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:809 [UiAutomator2]         "value": "m"
+2019-07-24 23:20:28:810 [UiAutomator2]       },
+2019-07-24 23:20:28:810 [UiAutomator2]       {
+2019-07-24 23:20:28:810 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:810 [UiAutomator2]         "value": "m"
+2019-07-24 23:20:28:811 [UiAutomator2]       },
+2019-07-24 23:20:28:812 [UiAutomator2]       {
+2019-07-24 23:20:28:812 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:812 [UiAutomator2]         "value": "b"
+2019-07-24 23:20:28:812 [UiAutomator2]       },
+2019-07-24 23:20:28:813 [UiAutomator2]       {
+2019-07-24 23:20:28:813 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:813 [UiAutomator2]         "value": "b"
+2019-07-24 23:20:28:813 [UiAutomator2]       },
+2019-07-24 23:20:28:813 [UiAutomator2]       {
+2019-07-24 23:20:28:813 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:814 [UiAutomator2]         "value": "u"
+2019-07-24 23:20:28:814 [UiAutomator2]       },
+2019-07-24 23:20:28:814 [UiAutomator2]       {
+2019-07-24 23:20:28:814 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:814 [UiAutomator2]         "value": "u"
+2019-07-24 23:20:28:814 [UiAutomator2]       },
+2019-07-24 23:20:28:814 [UiAutomator2]       {
+2019-07-24 23:20:28:815 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:815 [UiAutomator2]         "value": "s"
+2019-07-24 23:20:28:815 [UiAutomator2]       },
+2019-07-24 23:20:28:815 [UiAutomator2]       {
+2019-07-24 23:20:28:815 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:815 [UiAutomator2]         "value": "s"
+2019-07-24 23:20:28:815 [UiAutomator2]       },
+2019-07-24 23:20:28:816 [UiAutomator2]       {
+2019-07-24 23:20:28:816 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:816 [UiAutomator2]         "value": ","
+2019-07-24 23:20:28:816 [UiAutomator2]       },
+2019-07-24 23:20:28:816 [UiAutomator2]       {
+2019-07-24 23:20:28:816 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:816 [UiAutomator2]         "value": ","
+2019-07-24 23:20:28:817 [UiAutomator2]       },
+2019-07-24 23:20:28:817 [UiAutomator2]       {
+2019-07-24 23:20:28:817 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:817 [UiAutomator2]         "value": " "
+2019-07-24 23:20:28:817 [UiAutomator2]       },
+2019-07-24 23:20:28:817 [UiAutomator2]       {
+2019-07-24 23:20:28:817 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:818 [UiAutomator2]         "value": " "
+2019-07-24 23:20:28:818 [UiAutomator2]       },
+2019-07-24 23:20:28:818 [UiAutomator2]       {
+2019-07-24 23:20:28:818 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:818 [UiAutomator2]         "value": "O"
+2019-07-24 23:20:28:818 [UiAutomator2]       },
+2019-07-24 23:20:28:818 [UiAutomator2]       {
+2019-07-24 23:20:28:819 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:819 [UiAutomator2]         "value": "O"
+2019-07-24 23:20:28:819 [UiAutomator2]       },
+2019-07-24 23:20:28:819 [UiAutomator2]       {
+2019-07-24 23:20:28:819 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:822 [UiAutomator2]         "value": "H"
+2019-07-24 23:20:28:822 [UiAutomator2]       },
+2019-07-24 23:20:28:822 [UiAutomator2]       {
+2019-07-24 23:20:28:822 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:822 [UiAutomator2]         "value": "H"
+2019-07-24 23:20:28:822 [UiAutomator2]       },
+2019-07-24 23:20:28:823 [UiAutomator2]       {
+2019-07-24 23:20:28:823 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:823 [UiAutomator2]         "value": " "
+2019-07-24 23:20:28:823 [UiAutomator2]       },
+2019-07-24 23:20:28:823 [UiAutomator2]       {
+2019-07-24 23:20:28:823 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:823 [UiAutomator2]         "value": " "
+2019-07-24 23:20:28:824 [UiAutomator2]       },
+2019-07-24 23:20:28:824 [UiAutomator2]       {
+2019-07-24 23:20:28:824 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:824 [UiAutomator2]         "value": "4"
+2019-07-24 23:20:28:824 [UiAutomator2]       },
+2019-07-24 23:20:28:824 [UiAutomator2]       {
+2019-07-24 23:20:28:824 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:825 [UiAutomator2]         "value": "4"
+2019-07-24 23:20:28:825 [UiAutomator2]       },
+2019-07-24 23:20:28:825 [UiAutomator2]       {
+2019-07-24 23:20:28:825 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:825 [UiAutomator2]         "value": "3"
+2019-07-24 23:20:28:826 [UiAutomator2]       },
+2019-07-24 23:20:28:828 [UiAutomator2]       {
+2019-07-24 23:20:28:828 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:828 [UiAutomator2]         "value": "3"
+2019-07-24 23:20:28:828 [UiAutomator2]       },
+2019-07-24 23:20:28:828 [UiAutomator2]       {
+2019-07-24 23:20:28:829 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:829 [UiAutomator2]         "value": "2"
+2019-07-24 23:20:28:829 [UiAutomator2]       },
+2019-07-24 23:20:28:829 [UiAutomator2]       {
+2019-07-24 23:20:28:829 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:829 [UiAutomator2]         "value": "2"
+2019-07-24 23:20:28:829 [UiAutomator2]       },
+2019-07-24 23:20:28:830 [UiAutomator2]       {
+2019-07-24 23:20:28:830 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:830 [UiAutomator2]         "value": "4"
+2019-07-24 23:20:28:830 [UiAutomator2]       },
+2019-07-24 23:20:28:830 [UiAutomator2]       {
+2019-07-24 23:20:28:830 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:831 [UiAutomator2]         "value": "4"
+2019-07-24 23:20:28:832 [UiAutomator2]       },
+2019-07-24 23:20:28:832 [UiAutomator2]       {
+2019-07-24 23:20:28:832 [UiAutomator2]         "type": "keyDown",
+2019-07-24 23:20:28:832 [UiAutomator2]         "value": "0"
+2019-07-24 23:20:28:832 [UiAutomator2]       },
+2019-07-24 23:20:28:832 [UiAutomator2]       {
+2019-07-24 23:20:28:833 [UiAutomator2]         "type": "keyUp",
+2019-07-24 23:20:28:833 [UiAutomator2]         "value": "0"
+2019-07-24 23:20:28:833 [UiAutomator2]       }
+2019-07-24 23:20:28:833 [UiAutomator2]     ],
+2019-07-24 23:20:28:834 [UiAutomator2]     "id": "default keyboard"
+2019-07-24 23:20:28:834 [UiAutomator2]   }
+2019-07-24 23:20:28:834 [UiAutomator2] ]
+2019-07-24 23:20:28:835 [WD Proxy] Matched '/actions' to command name 'performActions'
+2019-07-24 23:20:28:835 [WD Proxy] Proxying [POST /actions] to [POST http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/actions] with body: {"actions":[{"type":"key","actions":[{"type":"keyDown","value":"C"},{"type":"keyUp","value":"C"},{"type":"keyDown","value":"o"},{"type":"keyUp","value":"o"},{"type":"keyDown","value":"l"},{"type":"keyUp","value":"l"},{"type":"keyDown","value":"u"},{"type":"keyUp","value":"u"},{"type":"keyDown","value":"m"},{"type":"keyUp","value":"m"},{"type":"keyDown","value":"b"},{"type":"keyUp","value":"b"},{"type":"keyDown","value":"u"},{"type":"keyUp","value":"u"},{"type":"keyDown","value":"s"},{"type":"keyUp","value":"s"},{"type":"keyDown","value":","},{"type":"keyUp","value":","},{"type":"keyDown","value":" "},{"type":"keyUp","value":" "},{"type":"keyDown","value":"O"},{"type":"keyUp","value":"O"},{"type":"keyDown","value":"H"},{"type":"keyUp","value":"H"},{"type":"keyDown","value":" "},{"type":"keyUp","value":" "},{"type":"keyDown","value":"4"},{"type":"keyUp","value":"4"},{"type":"keyDown","value":"3"},{"type":"keyUp","value":"3"},{"type":"keyDown","value":"2"},{"type":"keyUp","value":"2"},{"type":"keyDown","value...
+2019-07-24 23:20:29:487 [WD Proxy] Got response with status 200: {"sessionId":"4cf87f2d-88da-4265-ba43-de9d63b105c5","status":0,"value":"OK"}
+2019-07-24 23:20:29:488 [W3C (7f8f7cca)] Responding to client with driver.performActions() result: "OK"
+2019-07-24 23:20:29:489 [HTTP] <-- POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/actions 200 714 ms - 14
+2019-07-24 23:20:29:490 [HTTP] 
+2019-07-24 23:20:29:495 [HTTP] --> POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/appium/device/press_keycode
+2019-07-24 23:20:29:495 [HTTP] {"keycode":66}
+2019-07-24 23:20:29:496 [W3C (7f8f7cca)] Calling AppiumDriver.pressKeyCode() with args: [66,null,null,null,null,"7f8f7cca-250d-4d78-8921-e886a93277cb"]
+2019-07-24 23:20:29:498 [WD Proxy] Matched '/appium/device/press_keycode' to command name 'pressKeyCode'
+2019-07-24 23:20:29:498 [WD Proxy] Proxying [POST /appium/device/press_keycode] to [POST http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/appium/device/press_keycode] with body: {"keycode":66,"metastate":null,"flags":null}
+2019-07-24 23:20:30:695 [WD Proxy] Got response with status 200: {"sessionId":"4cf87f2d-88da-4265-ba43-de9d63b105c5","status":0,"value":true}
+2019-07-24 23:20:30:696 [W3C (7f8f7cca)] Responding to client with driver.pressKeyCode() result: true
+2019-07-24 23:20:30:697 [HTTP] <-- POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/appium/device/press_keycode 200 1202 ms - 14
+2019-07-24 23:20:30:698 [HTTP] 
+2019-07-24 23:20:37:706 [HTTP] --> GET /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/screenshot
+2019-07-24 23:20:37:706 [HTTP] {}
+2019-07-24 23:20:37:707 [W3C (7f8f7cca)] Calling AppiumDriver.getScreenshot() with args: ["7f8f7cca-250d-4d78-8921-e886a93277cb"]
+2019-07-24 23:20:37:708 [WD Proxy] Matched '/screenshot' to command name 'getScreenshot'
+2019-07-24 23:20:37:709 [WD Proxy] Proxying [GET /screenshot] to [GET http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/screenshot] with no body
+2019-07-24 23:20:39:893 [WD Proxy] Got response with status 200: "{\"sessionId\":\"4cf87f2d-88da-4265-ba43-de9d63b105c5\",\"status\":0,\"value\":\"iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIfAhkiAAAIABJREFU\\neJzkvXeYJUd1Nv523zx3ctycs8JKu1olJCQhCVAAJCFjBBY2QcAnMEH+xIfBZBsbwwc4YAMiGQEW\\nIEyQVggQykirsAqruDubd3ZmZ3byzM0dvj\\/u3Lt9eyp39Z3R7\\/c+zz47t7vq1KmqU6fOOVVdZWy7\\n8SEX8wCGAbgCnPjTieQTTQOw05HKrkCEdxY9lXrphK52VCmnnnWdi\\/JZ\\/ayDJuuZLswHeaw3D0Eg\\nO54qf\\/ufAXzZUS2LR0emvVlpVd+JgtR2Mvl0pJWV13rJcj3KkW1\\/WTlTlft61r1e+cKgFUY7ychE\\nGON2rttEd5sGoTdfZE1EH6rMUzrwSrGd5tpPmGuo1p+WT\\/S5zrJl84tAN29hYC70kEnLLPJMJQ0N\\nLMXn\\/dufTqSSFYEl0ZSh5aVT4aXyTwXefLR6sfpCtL1F0om2owp9XiCIZ6TyypGRO1K7yvafCE+k\\nMmnli5Tj\\/+2XRX85omWIwj+GRKCqRyrl8Z4FrZ9KftmxR0rLCqZ629mvW0h9IKroWbqG9lx0XJLS\\nksYXqc1kxgMNFRo0I4KXTyStKA+8Z\\/53ovLEmwdEZUxUd\\/HGLql\\/RfWojFyx0qsGFoKAJ\\/e0MkTy\\nyZYdhJaXnsoY5KWVkQlZ\\/lVsPlnQxo3o+NHtNATRk0HbgsQHjReWPhMZKyLzFCu\\/anqdjpe\\/HJIs\\nqdqyKv4PDSz7Mghk55UgZag68TT9xNJbom0vqutl7I+w5IKmG3T1YRA\\/iwXRtiMGOEgZZSeqMBQq\\nTUGqOpm09yJ0RAIQJMgqNhkjmUZPt\\/Km8e...
+2019-07-24 23:20:39:904 [W3C (7f8f7cca)] Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABDgAAAeACAYAAAArYecKAAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzkvXeYJUd1Nv523zx3ctycs8JKu1olJCQhCVAAJCFjBBY2QcAnMEH+xIfBZBsbwwc4YAMiGQEW\nIEyQVggQykirsAqruDubd3ZmZ3byzM0dvj/u3Lt9eyp39Z3R7/c+zz47t7vq1KmqU6fOOVVdZWy7\n8SEX8wCGAbgCnPjTieQTTQOw05HKrkCEdxY9lXrphK52VCmnnnWdi/JZ/ayDJuuZLswHeaw3D0Eg\nO54qf/ufAXzZUS2LR0emvVlpVd+JgtR2Mvl0pJWV13rJcj3KkW1/WTlTlft61r1e+cKgFUY7ychE\nGON2rttEd5sGoTdfZE1EH6rMUzrwSrGd5tpPmGuo1p+WT/S5zrJl84tAN29hYC70kEnLLPJMJQ0N\nLMXn/dufTqSSFYEl0ZSh5aVT4aXyTwXefLR6sfpCtL1F0om2owp9XiCIZ6TyypGRO1K7yvafCE+k\nMmnli5Tj/+2XRX85omWIwj+GRKCqRyrl8Z4FrZ9KftmxR0rLCqZ629mvW0h9IKroWbqG9lx0XJLS\nksYXqc1kxgMNFRo0I4KXTyStKA+8Z/53ovLEmwdEZUxUd/HGLql/RfWojFyx0qsGFoKAJ/e0MkTy\nyZYdhJaXnsoY5KWVkQlZ/lVsPlnQxo3o+NHtNATRk0HbgsQHjReWPhMZKyLzFCu/anqdjpe/HJIs\nqdqyKv4PDSz7Mghk55UgZag68TT9xNJbom0vqutl7I+w5IKmG3T1YRA/iwXRtiMGOEgZZSeqMBQq\nTUGqOpm09yJ0RAIQJMgqNhkjmUZPt/Km8eFPKyM7vDJIdCplqDgqQQxMXt6wAkqyUWCvfOgYj6Tx\nLdtfOnVEUMNcRQa8459l7IoEL0XT+4OqLFpBgjY8GqJBCxJfLFqiQRp/fppcq/QxjwfdDou/TJX2\n9OYVDZ...
+2019-07-24 23:20:39:912 [HTTP] <-- GET /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/screenshot 200 2206 ms - 651630
+2019-07-24 23:20:39:913 [HTTP] 
+2019-07-24 23:20:40:029 [HTTP] --> POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/elements
+2019-07-24 23:20:40:029 [HTTP] {"using":"class name","value":"android.widget.TextView"}
+2019-07-24 23:20:40:030 [W3C (7f8f7cca)] Calling AppiumDriver.findElements() with args: ["class name","android.widget.TextView","7f8f7cca-250d-4d78-8921-e886a93277cb"]
+2019-07-24 23:20:40:031 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-07-24 23:20:40:031 [BaseDriver] Waiting up to 10000 ms for condition
+2019-07-24 23:20:40:034 [WD Proxy] Matched '/elements' to command name 'findElements'
+2019-07-24 23:20:40:034 [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/elements] with body: {"strategy":"class name","selector":"android.widget.TextView","context":"","multiple":true}
+2019-07-24 23:20:40:196 [WD Proxy] Got response with status 200: {"sessionId":"4cf87f2d-88da-4265-ba43-de9d63b105c5","status":0,"value":[{"ELEMENT":"913cd82b-4699-4883-9c23-411313e9ce1b"},{"ELEMENT":"3fedb327-4795-407e-9845-5137e4a667bd"},{"ELEMENT":"0f4e67b5-2819-457b-bab8-768903838768"},{"ELEMENT":"02d1fbaf-eaef-404c-b69a-e1f9e8533954"},{"ELEMENT":"9f369de8-cdec-42bc-8d1b-f552f6a63877"},{"ELEMENT":"d4ef2a0e-c4fd-40d3-a50e-fe6cbf66cde0"},{"ELEMENT":"1f91e408-2c67-435f-bae0-327f9fa68f31"},{"ELEMENT":"3bbd97f5-4200-4033-a9c1-fead1a47852b"},{"ELEMENT":"7a29b16b-9c1a-42b4-bb3e-9bb509fdc77a"},{"ELEMENT":"fc656493-27a7-4399-b324-63f9e8a02425"},{"ELEMENT":"ef38cf72-1810-4c57-8b34-44bf651eccf9"},{"ELEMENT":"955dd25b-987c-4353-8d5d-a351256e056f"}]}
+2019-07-24 23:20:40:197 [W3C (7f8f7cca)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"913cd82b-4699-4883-9c23-411313e9ce1b","ELEMENT":"913cd82b-4699-4883-9c23-411313e9ce1b"},{"element-6066-11e4-a52e-4f735466cecf":"3fedb327-4795-407e-9845-5137e4a667bd","ELEMENT":"3fedb327-4795-407e-9845-5137e4a667bd"},{"element-6066-11e4-a52e-4f735466cecf":"0f4e67b5-2819-457b-bab8-768903838768","ELEMENT":"0f4e67b5-2819-457b-bab8-768903838768"},{"element-6066-11e4-a52e-4f735466cecf":"02d1fbaf-eaef-404c-b69a-e1f9e8533954","ELEMENT":"02d1fbaf-eaef-404c-b69a-e1f9e8533954"},{"element-6066-11e4-a52e-4f735466cecf":"9f369de8-cdec-42bc-8d1b-f552f6a63877","ELEMENT":"9f369de8-cdec-42bc-8d1b-f552f6a63877"},{"element-6066-11e4-a52e-4f735466cecf":"d4ef2a0e-c4fd-40d3-a50e-fe6cbf66cde0","ELEMENT":"d4ef2a0e-c4fd-40d3-a50e-fe6cbf66cde0"},{"element-6066-11e4-a52e-4f735466cecf":"1f91e408-2c67-435f-bae0-327f9fa68f31","ELEMENT":"1f91e408-2c67-435f-bae0-327f9fa68f31"},{"element-6066-11e4-a52e-4f735466cecf":"3bbd97f5-4200-4033-a9c1-fead1a47852b","ELEMENT":"3bbd97f5-4200-4033-a9c1-fead1a47852...
+2019-07-24 23:20:40:199 [HTTP] <-- POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/elements 200 169 ms - 1547
+2019-07-24 23:20:40:199 [HTTP] 
+2019-07-24 23:20:40:213 [HTTP] --> GET /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element/913cd82b-4699-4883-9c23-411313e9ce1b/text
+2019-07-24 23:20:40:213 [HTTP] {}
+2019-07-24 23:20:40:215 [W3C (7f8f7cca)] Driver proxy active, passing request on via HTTP proxy
+2019-07-24 23:20:40:218 [WD Proxy] Matched '/wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element/913cd82b-4699-4883-9c23-411313e9ce1b/text' to command name 'getText'
+2019-07-24 23:20:40:218 [WD Proxy] Proxying [GET /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element/913cd82b-4699-4883-9c23-411313e9ce1b/text] to [GET http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/element/913cd82b-4699-4883-9c23-411313e9ce1b/text] with body: {}
+2019-07-24 23:20:40:248 [WD Proxy] Got response with status 200: "{\"sessionId\":\"4cf87f2d-88da-4265-ba43-de9d63b105c5\",\"status\":0,\"value\":\"9 hr 42 min\"}"
+2019-07-24 23:20:40:249 [WD Proxy] Replacing sessionId 4cf87f2d-88da-4265-ba43-de9d63b105c5 with 7f8f7cca-250d-4d78-8921-e886a93277cb
+2019-07-24 23:20:40:250 [HTTP] <-- GET /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element/913cd82b-4699-4883-9c23-411313e9ce1b/text 200 37 ms - 85
+2019-07-24 23:20:40:250 [HTTP] 
+2019-07-24 23:20:40:255 [HTTP] --> POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/elements
+2019-07-24 23:20:40:255 [HTTP] {"using":"class name","value":"android.widget.TextView"}
+2019-07-24 23:20:40:256 [W3C (7f8f7cca)] Calling AppiumDriver.findElements() with args: ["class name","android.widget.TextView","7f8f7cca-250d-4d78-8921-e886a93277cb"]
+2019-07-24 23:20:40:257 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2019-07-24 23:20:40:257 [BaseDriver] Waiting up to 10000 ms for condition
+2019-07-24 23:20:40:257 [WD Proxy] Matched '/elements' to command name 'findElements'
+2019-07-24 23:20:40:258 [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/elements] with body: {"strategy":"class name","selector":"android.widget.TextView","context":"","multiple":true}
+2019-07-24 23:20:40:487 [WD Proxy] Got response with status 200: {"sessionId":"4cf87f2d-88da-4265-ba43-de9d63b105c5","status":0,"value":[{"ELEMENT":"a249ff01-4389-4348-9448-ad6ace361457"},{"ELEMENT":"5085eec3-6d6b-4d22-b12e-9c5dc576cbbe"},{"ELEMENT":"b52884be-122f-42f5-949a-e838ac765494"},{"ELEMENT":"9db008c5-6bd8-4ffe-bc7b-b3ad26250099"},{"ELEMENT":"035d2752-f973-49b8-bc79-f38a100d8df9"},{"ELEMENT":"30180c57-d975-4e77-be6e-b5589269f8ef"},{"ELEMENT":"e803143f-81e2-4721-ac04-6c6f06ff3f3a"},{"ELEMENT":"66f161b6-b2f3-40c8-8868-e8d2a777e1b7"},{"ELEMENT":"4a8caa8a-e760-4e52-b8b7-2b334cb1b6e8"},{"ELEMENT":"a75009fd-42a9-4da4-902c-cdf4adecfeed"},{"ELEMENT":"693e4612-b9b9-4e6f-a184-c8d945114080"},{"ELEMENT":"6c224358-898f-41c9-b110-394f72e63b8b"}]}
+2019-07-24 23:20:40:487 [W3C (7f8f7cca)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"a249ff01-4389-4348-9448-ad6ace361457","ELEMENT":"a249ff01-4389-4348-9448-ad6ace361457"},{"element-6066-11e4-a52e-4f735466cecf":"5085eec3-6d6b-4d22-b12e-9c5dc576cbbe","ELEMENT":"5085eec3-6d6b-4d22-b12e-9c5dc576cbbe"},{"element-6066-11e4-a52e-4f735466cecf":"b52884be-122f-42f5-949a-e838ac765494","ELEMENT":"b52884be-122f-42f5-949a-e838ac765494"},{"element-6066-11e4-a52e-4f735466cecf":"9db008c5-6bd8-4ffe-bc7b-b3ad26250099","ELEMENT":"9db008c5-6bd8-4ffe-bc7b-b3ad26250099"},{"element-6066-11e4-a52e-4f735466cecf":"035d2752-f973-49b8-bc79-f38a100d8df9","ELEMENT":"035d2752-f973-49b8-bc79-f38a100d8df9"},{"element-6066-11e4-a52e-4f735466cecf":"30180c57-d975-4e77-be6e-b5589269f8ef","ELEMENT":"30180c57-d975-4e77-be6e-b5589269f8ef"},{"element-6066-11e4-a52e-4f735466cecf":"e803143f-81e2-4721-ac04-6c6f06ff3f3a","ELEMENT":"e803143f-81e2-4721-ac04-6c6f06ff3f3a"},{"element-6066-11e4-a52e-4f735466cecf":"66f161b6-b2f3-40c8-8868-e8d2a777e1b7","ELEMENT":"66f161b6-b2f3-40c8-8868-e8d2a777e1b...
+2019-07-24 23:20:40:488 [HTTP] <-- POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/elements 200 233 ms - 1547
+2019-07-24 23:20:40:488 [HTTP] 
+2019-07-24 23:20:40:493 [HTTP] --> GET /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element/5085eec3-6d6b-4d22-b12e-9c5dc576cbbe/text
+2019-07-24 23:20:40:493 [HTTP] {}
+2019-07-24 23:20:40:494 [W3C (7f8f7cca)] Driver proxy active, passing request on via HTTP proxy
+2019-07-24 23:20:40:495 [WD Proxy] Matched '/wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element/5085eec3-6d6b-4d22-b12e-9c5dc576cbbe/text' to command name 'getText'
+2019-07-24 23:20:40:496 [WD Proxy] Proxying [GET /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element/5085eec3-6d6b-4d22-b12e-9c5dc576cbbe/text] to [GET http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/element/5085eec3-6d6b-4d22-b12e-9c5dc576cbbe/text] with body: {}
+2019-07-24 23:20:40:518 [WD Proxy] Got response with status 200: "{\"sessionId\":\"4cf87f2d-88da-4265-ba43-de9d63b105c5\",\"status\":0,\"value\":\"(569 mi)\"}"
+2019-07-24 23:20:40:518 [WD Proxy] Replacing sessionId 4cf87f2d-88da-4265-ba43-de9d63b105c5 with 7f8f7cca-250d-4d78-8921-e886a93277cb
+2019-07-24 23:20:40:519 [HTTP] <-- GET /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/element/5085eec3-6d6b-4d22-b12e-9c5dc576cbbe/text 200 26 ms - 83
+2019-07-24 23:20:40:520 [HTTP] 
+2019-07-24 23:20:43:523 [HTTP] --> POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/appium/device/press_keycode
+2019-07-24 23:20:43:523 [HTTP] {"keycode":3}
+2019-07-24 23:20:43:524 [W3C (7f8f7cca)] Calling AppiumDriver.pressKeyCode() with args: [3,null,null,null,null,"7f8f7cca-250d-4d78-8921-e886a93277cb"]
+2019-07-24 23:20:43:528 [WD Proxy] Matched '/appium/device/press_keycode' to command name 'pressKeyCode'
+2019-07-24 23:20:43:529 [WD Proxy] Proxying [POST /appium/device/press_keycode] to [POST http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5/appium/device/press_keycode] with body: {"keycode":3,"metastate":null,"flags":null}
+2019-07-24 23:20:43:580 [WD Proxy] Got response with status 200: {"sessionId":"4cf87f2d-88da-4265-ba43-de9d63b105c5","status":0,"value":true}
+2019-07-24 23:20:43:581 [W3C (7f8f7cca)] Responding to client with driver.pressKeyCode() result: true
+2019-07-24 23:20:43:582 [HTTP] <-- POST /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb/appium/device/press_keycode 200 58 ms - 14
+2019-07-24 23:20:43:582 [HTTP] 
+2019-07-24 23:20:44:588 [HTTP] --> DELETE /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb
+2019-07-24 23:20:44:588 [HTTP] {}
+2019-07-24 23:20:44:589 [W3C (7f8f7cca)] Calling AppiumDriver.deleteSession() with args: ["7f8f7cca-250d-4d78-8921-e886a93277cb"]
+2019-07-24 23:20:44:589 [BaseDriver] Event 'quitSessionRequested' logged at 1564024844589 (23:20:44 GMT-0400 (Eastern Daylight Time))
+2019-07-24 23:20:44:591 [Appium] Removing session 7f8f7cca-250d-4d78-8921-e886a93277cb from our master session list
+2019-07-24 23:20:44:592 [UiAutomator2] Deleting UiAutomator2 session
+2019-07-24 23:20:44:593 [UiAutomator2] Deleting UiAutomator2 server session
+2019-07-24 23:20:44:593 [WD Proxy] Matched '/' to command name 'deleteSession'
+2019-07-24 23:20:44:593 [WD Proxy] Proxying [DELETE /] to [DELETE http://localhost:8200/wd/hub/session/4cf87f2d-88da-4265-ba43-de9d63b105c5] with no body
+2019-07-24 23:20:44:637 [WD Proxy] Got response with status 200: "{\"sessionId\":\"4cf87f2d-88da-4265-ba43-de9d63b105c5\",\"status\":0,\"value\":\"Session deleted\"}"
+2019-07-24 23:20:44:638 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.google.android.apps.maps'
+2019-07-24 23:20:44:837 [Logcat] Stopping logcat capture
+2019-07-24 23:20:44:847 [ADB] Removing forwarded port socket connection: 8200 
+2019-07-24 23:20:44:848 [ADB] Running 'C:\Users\arman\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp\:8200'
+2019-07-24 23:20:44:914 [BaseDriver] Event 'quitSessionFinished' logged at 1564024844914 (23:20:44 GMT-0400 (Eastern Daylight Time))
+2019-07-24 23:20:44:915 [W3C (7f8f7cca)] Received response: null
+2019-07-24 23:20:44:915 [W3C (7f8f7cca)] But deleting session, so not returning
+2019-07-24 23:20:44:915 [W3C (7f8f7cca)] Responding to client with driver.deleteSession() result: null
+2019-07-24 23:20:44:918 [HTTP] <-- DELETE /wd/hub/session/7f8f7cca-250d-4d78-8921-e886a93277cb 200 329 ms - 14
+2019-07-24 23:20:44:919 [HTTP] 
